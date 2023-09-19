@@ -13,7 +13,7 @@
             else if (minute >= 60 && hour + 1 <= 23) { time = $"{hour + 1}:{(minute - 60):D2}"; }
             else if (minute >= 60 && hour + 1 > 23) { time = $"{0}:{(minute - 60):D2}"; }
 
-            Console.WriteLine(time);
+            Console.WriteLine(time);//
 
         }
     }
