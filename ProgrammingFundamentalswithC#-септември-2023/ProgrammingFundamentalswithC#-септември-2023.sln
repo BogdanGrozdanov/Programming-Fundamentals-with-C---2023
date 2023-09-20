@@ -61,7 +61,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MoreExercise", "MoreExercis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders", "..\Orders\Orders.csproj", "{24B24443-5420-41C8-A355-6782CF3CB053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortNumbers", "..\SortNumbers\SortNumbers.csproj", "{03B0EC65-6B5D-4F6A-B6F0-64A92DD0A3DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortNumbers", "..\SortNumbers\SortNumbers.csproj", "{03B0EC65-6B5D-4F6A-B6F0-64A92DD0A3DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Types and Variables", "Data Types and Variables", "{898A54F3-76DB-44B9-8670-35B4E6ABD281}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
