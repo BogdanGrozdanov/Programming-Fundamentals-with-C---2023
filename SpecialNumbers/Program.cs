@@ -12,10 +12,10 @@
 
             int sum = 0;
             bool isSpesial = true;
-            Console.WriteLine(isSpesial);
             for (int i = 1; i <= n; i++)
             {
-            
+
+                Console.WriteLine(i);
             }
         }
     }
