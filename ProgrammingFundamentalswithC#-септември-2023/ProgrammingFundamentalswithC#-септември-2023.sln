@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorVolumeOfPyramid", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{75E2C473-A26C-4AA0-99F8-340D60310045}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorSpecialNumbers", "..\RefactorSpecialNumbers\RefactorSpecialNumbers.csproj", "{CE653006-2A16-4C63-9B71-962A405C47AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -247,6 +249,10 @@ Global
 		{E89BA5AC-2A1D-4877-BC79-7F87904DDFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89BA5AC-2A1D-4877-BC79-7F87904DDFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89BA5AC-2A1D-4877-BC79-7F87904DDFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE653006-2A16-4C63-9B71-962A405C47AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE653006-2A16-4C63-9B71-962A405C47AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE653006-2A16-4C63-9B71-962A405C47AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE653006-2A16-4C63-9B71-962A405C47AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -294,6 +300,7 @@ Global
 		{C010D0FD-563E-463E-A2FA-F5998CFDAC0C} = {4EEF960B-F61B-4EC5-B77F-5603CB3CF71C}
 		{E89BA5AC-2A1D-4877-BC79-7F87904DDFD1} = {75E2C473-A26C-4AA0-99F8-340D60310045}
 		{75E2C473-A26C-4AA0-99F8-340D60310045} = {898A54F3-76DB-44B9-8670-35B4E6ABD281}
+		{CE653006-2A16-4C63-9B71-962A405C47AD} = {75E2C473-A26C-4AA0-99F8-340D60310045}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
