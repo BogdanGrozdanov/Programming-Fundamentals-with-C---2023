@@ -69,53 +69,55 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integer and Real Numbers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertMetersToKilometers", "..\ConvertMetersToKilometers\ConvertMetersToKilometers.csproj", "{0DE0635E-EAF3-4941-ABAC-ACEC1E9F1060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PundsToDollars", "..\PundsToDollars\PundsToDollars.csproj", "{4A49A578-6D6A-4E5B-8536-4FB5F2D737B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PundsToDollars", "..\PundsToDollars\PundsToDollars.csproj", "{4A49A578-6D6A-4E5B-8536-4FB5F2D737B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExactSumOfRealNumbers", "..\ExactSumOfRealNumbers\ExactSumOfRealNumbers.csproj", "{76ECB6AF-C649-429C-92C9-820783DE8957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExactSumOfRealNumbers", "..\ExactSumOfRealNumbers\ExactSumOfRealNumbers.csproj", "{76ECB6AF-C649-429C-92C9-820783DE8957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenturiesToMinutes", "..\CenturiesToMinutes\CenturiesToMinutes.csproj", "{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CenturiesToMinutes", "..\CenturiesToMinutes\CenturiesToMinutes.csproj", "{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Types and Type Conversion", "Data Types and Type Conversion", "{4EEF960B-F61B-4EC5-B77F-5603CB3CF71C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialNumbers", "..\SpecialNumbers\SpecialNumbers.csproj", "{F8D19C21-091E-4DF6-B0C5-4282C69C5CC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecialNumbers", "..\SpecialNumbers\SpecialNumbers.csproj", "{F8D19C21-091E-4DF6-B0C5-4282C69C5CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversedChars", "..\ReversedChars\ReversedChars.csproj", "{2A26A949-2C96-46CC-B2FD-B5FA51EF52DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversedChars", "..\ReversedChars\ReversedChars.csproj", "{2A26A949-2C96-46CC-B2FD-B5FA51EF52DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatNames", "..\ConcatNames\ConcatNames.csproj", "{24C66255-E8FE-44F7-AB3F-9EBCD69FFFE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcatNames", "..\ConcatNames\ConcatNames.csproj", "{24C66255-E8FE-44F7-AB3F-9EBCD69FFFE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TownInfo", "..\TownInfo\TownInfo.csproj", "{DDF52D99-FBE4-47F5-ABE2-7498C3FF2917}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TownInfo", "..\TownInfo\TownInfo.csproj", "{DDF52D99-FBE4-47F5-ABE2-7498C3FF2917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharsToString", "..\CharsToString\CharsToString.csproj", "{82B6D0EC-A07D-43BC-AC3E-8100BA44A1A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharsToString", "..\CharsToString\CharsToString.csproj", "{82B6D0EC-A07D-43BC-AC3E-8100BA44A1A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowerOrUpper", "..\LowerOrUpper\LowerOrUpper.csproj", "{C010D0FD-563E-463E-A2FA-F5998CFDAC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowerOrUpper", "..\LowerOrUpper\LowerOrUpper.csproj", "{C010D0FD-563E-463E-A2FA-F5998CFDAC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorVolumeOfPyramid", "..\RefactorVolumeOfPyramid\RefactorVolumeOfPyramid.csproj", "{E89BA5AC-2A1D-4877-BC79-7F87904DDFD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefactorVolumeOfPyramid", "..\RefactorVolumeOfPyramid\RefactorVolumeOfPyramid.csproj", "{E89BA5AC-2A1D-4877-BC79-7F87904DDFD1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{75E2C473-A26C-4AA0-99F8-340D60310045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorSpecialNumbers", "..\RefactorSpecialNumbers\RefactorSpecialNumbers.csproj", "{CE653006-2A16-4C63-9B71-962A405C47AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefactorSpecialNumbers", "..\RefactorSpecialNumbers\RefactorSpecialNumbers.csproj", "{CE653006-2A16-4C63-9B71-962A405C47AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{CE3F572C-5799-4F4F-B858-176D7C7D759C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerOperations", "..\IntegerOperations\IntegerOperations.csproj", "{08B88CDE-3F90-4CD1-BFA5-A88243852565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerOperations", "..\IntegerOperations\IntegerOperations.csproj", "{08B88CDE-3F90-4CD1-BFA5-A88243852565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumDigits", "..\SumDigits\SumDigits.csproj", "{17822818-1576-4E08-AE58-BB6CBDF25B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumDigits", "..\SumDigits\SumDigits.csproj", "{17822818-1576-4E08-AE58-BB6CBDF25B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevator", "..\Elevator\Elevator.csproj", "{1351B944-DE44-4FFF-A1B5-2F46BB0D3B3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elevator", "..\Elevator\Elevator.csproj", "{1351B944-DE44-4FFF-A1B5-2F46BB0D3B3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfChars", "..\SumOfChars\SumOfChars.csproj", "{E9E6F93C-F9F8-4077-8DDF-5FFB86CC33DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfChars", "..\SumOfChars\SumOfChars.csproj", "{E9E6F93C-F9F8-4077-8DDF-5FFB86CC33DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintPartOfASCIITable", "..\PrintPartOfASCIITable\PrintPartOfASCIITable.csproj", "{3C14E5A6-572D-4D60-8E9E-45BF2ABF020C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintPartOfASCIITable", "..\PrintPartOfASCIITable\PrintPartOfASCIITable.csproj", "{3C14E5A6-572D-4D60-8E9E-45BF2ABF020C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriplesOfLatinLetters", "..\TriplesOfLatinLetters\TriplesOfLatinLetters.csproj", "{C3E6C397-816E-46B5-BC72-B2BEBB50B2FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriplesOfLatinLetters", "..\TriplesOfLatinLetters\TriplesOfLatinLetters.csproj", "{C3E6C397-816E-46B5-BC72-B2BEBB50B2FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterOverflow", "..\WaterOverflow\WaterOverflow.csproj", "{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterOverflow", "..\WaterOverflow\WaterOverflow.csproj", "{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerKegs", "..\BeerKegs\BeerKegs.csproj", "{0A5EE233-5233-489F-81A2-2B38513BFD87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerKegs", "..\BeerKegs\BeerKegs.csproj", "{0A5EE233-5233-489F-81A2-2B38513BFD87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceMustFlow", "..\SpiceMustFlow\SpiceMustFlow.csproj", "{89A5D7F7-8CF6-426A-9E27-A0FB1B92B82B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiceMustFlow", "..\SpiceMustFlow\SpiceMustFlow.csproj", "{89A5D7F7-8CF6-426A-9E27-A0FB1B92B82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowballs", "..\Snowballs\Snowballs.csproj", "{27FF73E9-6282-4813-8428-A47905792D33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -311,6 +313,10 @@ Global
 		{89A5D7F7-8CF6-426A-9E27-A0FB1B92B82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A5D7F7-8CF6-426A-9E27-A0FB1B92B82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A5D7F7-8CF6-426A-9E27-A0FB1B92B82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FF73E9-6282-4813-8428-A47905792D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FF73E9-6282-4813-8428-A47905792D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FF73E9-6282-4813-8428-A47905792D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FF73E9-6282-4813-8428-A47905792D33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -370,6 +376,7 @@ Global
 		{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
 		{0A5EE233-5233-489F-81A2-2B38513BFD87} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
 		{89A5D7F7-8CF6-426A-9E27-A0FB1B92B82B} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
+		{27FF73E9-6282-4813-8428-A47905792D33} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
