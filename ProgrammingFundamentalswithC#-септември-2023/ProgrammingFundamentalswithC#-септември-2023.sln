@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintPartOfASCIITable", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriplesOfLatinLetters", "..\TriplesOfLatinLetters\TriplesOfLatinLetters.csproj", "{C3E6C397-816E-46B5-BC72-B2BEBB50B2FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterOverflow", "..\WaterOverflow\WaterOverflow.csproj", "{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -293,6 +295,10 @@ Global
 		{C3E6C397-816E-46B5-BC72-B2BEBB50B2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E6C397-816E-46B5-BC72-B2BEBB50B2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E6C397-816E-46B5-BC72-B2BEBB50B2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -349,6 +355,7 @@ Global
 		{E9E6F93C-F9F8-4077-8DDF-5FFB86CC33DA} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
 		{3C14E5A6-572D-4D60-8E9E-45BF2ABF020C} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
 		{C3E6C397-816E-46B5-BC72-B2BEBB50B2FD} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
+		{35DCBD4E-35D0-4FBA-B15D-BEB520E184F3} = {9BAB8A0C-EF43-4BE4-8FCE-E4136D1BE6DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
