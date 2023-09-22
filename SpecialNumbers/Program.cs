@@ -10,12 +10,21 @@
         {
             int n = int.Parse(Console.ReadLine());
 
-            int sum = 0;
-            bool isSpesial = true;
             for (int i = 1; i <= n; i++)
             {
+                int number = i;
+                int sum = 0;
 
-                Console.WriteLine(i);
+                while (number > 0)
+                {
+                    int lastDigit = number % 10;
+                    sum += lastDigit;
+                    number /= 10;
+                }
+                bool isspecial = sum == 5 || sum == 7 || sum == 11;
+                Console.WriteLine($"{i} -> {isspecial}");
+
+
             }
         }
     }
