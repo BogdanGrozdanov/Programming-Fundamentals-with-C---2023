@@ -24,7 +24,6 @@
                 bool isspecial = sum == 5 || sum == 7 || sum == 11;
                 Console.WriteLine($"{i} -> {isspecial}");
 
-
             }
         }
     }
