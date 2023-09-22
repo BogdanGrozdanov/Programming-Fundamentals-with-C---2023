@@ -73,6 +73,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PundsToDollars", "..\PundsT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExactSumOfRealNumbers", "..\ExactSumOfRealNumbers\ExactSumOfRealNumbers.csproj", "{76ECB6AF-C649-429C-92C9-820783DE8957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenturiesToMinutes", "..\CenturiesToMinutes\CenturiesToMinutes.csproj", "{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Types and Type Conversion", "Data Types and Type Conversion", "{4EEF960B-F61B-4EC5-B77F-5603CB3CF71C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +199,10 @@ Global
 		{76ECB6AF-C649-429C-92C9-820783DE8957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76ECB6AF-C649-429C-92C9-820783DE8957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76ECB6AF-C649-429C-92C9-820783DE8957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -232,6 +240,8 @@ Global
 		{0DE0635E-EAF3-4941-ABAC-ACEC1E9F1060} = {70221648-1AE5-4DCF-B445-D2EA6935836A}
 		{4A49A578-6D6A-4E5B-8536-4FB5F2D737B5} = {70221648-1AE5-4DCF-B445-D2EA6935836A}
 		{76ECB6AF-C649-429C-92C9-820783DE8957} = {70221648-1AE5-4DCF-B445-D2EA6935836A}
+		{283A6D3E-0FA0-43B0-B224-F5BBEB3F99A0} = {4EEF960B-F61B-4EC5-B77F-5603CB3CF71C}
+		{4EEF960B-F61B-4EC5-B77F-5603CB3CF71C} = {898A54F3-76DB-44B9-8670-35B4E6ABD281}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
