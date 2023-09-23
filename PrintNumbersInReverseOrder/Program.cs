@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           int n =int.Parse(Console.ReadLine());
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) 
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+
+            //foreach (int i in arr) { Console.WriteLine(i); }
         }
     }
 }
