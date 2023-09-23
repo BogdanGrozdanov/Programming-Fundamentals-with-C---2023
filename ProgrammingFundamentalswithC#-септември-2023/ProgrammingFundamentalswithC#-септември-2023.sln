@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbers", "..\SumEve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddSubtraction", "..\EvenAndOddSubtraction\EvenAndOddSubtraction.csproj", "{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualArrays", "..\EqualArrays\EqualArrays.csproj", "{DBFDD7FE-3157-4875-9281-CB2C235D5E69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -355,6 +357,10 @@ Global
 		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFDD7FE-3157-4875-9281-CB2C235D5E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFDD7FE-3157-4875-9281-CB2C235D5E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFDD7FE-3157-4875-9281-CB2C235D5E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFDD7FE-3157-4875-9281-CB2C235D5E69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -421,6 +427,7 @@ Global
 		{0A4D3972-E412-42F4-B232-C09251597F9B} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
 		{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
 		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
+		{DBFDD7FE-3157-4875-9281-CB2C235D5E69} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
