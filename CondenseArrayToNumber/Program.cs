@@ -23,7 +23,6 @@
                     arrInput = condensed;
                 }
             }
-
             Console.WriteLine(arrInput[0]);
         }
     }
