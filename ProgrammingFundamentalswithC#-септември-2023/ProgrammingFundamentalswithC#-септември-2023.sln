@@ -129,6 +129,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundingNumbers", "..\Round
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArrayOfStrings", "..\ReverseArrayOfStrings\ReverseArrayOfStrings.csproj", "{0A4D3972-E412-42F4-B232-C09251597F9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbers", "..\SumEvenNumbers\SumEvenNumbers.csproj", "{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddSubtraction", "..\EvenAndOddSubtraction\EvenAndOddSubtraction.csproj", "{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -343,6 +347,14 @@ Global
 		{0A4D3972-E412-42F4-B232-C09251597F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A4D3972-E412-42F4-B232-C09251597F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A4D3972-E412-42F4-B232-C09251597F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -407,6 +419,8 @@ Global
 		{C051D2FA-7BBA-4564-81BE-CCE2BC20DC7B} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
 		{0560CEB1-92DA-4B10-A420-BF168B1A4796} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
 		{0A4D3972-E412-42F4-B232-C09251597F9B} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
+		{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
+		{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
