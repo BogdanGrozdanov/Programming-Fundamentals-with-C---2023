@@ -9,18 +9,17 @@
 
             string[] commonArr = new string[firstArr.Length];
 
-            for (int i = 0; i < firstArr.Length; i++)
+            for (int i = 0; i < secondArr.Length; i++)
             {
-                for (int j = 0; j < secondArr.Length; j++)
+                for (int j = 0; j < firstArr.Length; j++)
                 {
-                    if (firstArr[i] == secondArr[j])
+                    if (secondArr[i] == firstArr[j])
                     {
-                        commonArr[i] = firstArr[i];
+                        { Console.Write(secondArr[i] + " "); }
+                        break;
                     }
                 }
             }
-            for (int i = commonArr.Length - 1; i >= 0; i--)
-            { Console.Write(commonArr[i] + " "); }
         }
     }
 }
