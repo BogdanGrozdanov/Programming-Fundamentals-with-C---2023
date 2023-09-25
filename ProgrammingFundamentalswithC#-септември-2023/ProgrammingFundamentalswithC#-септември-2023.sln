@@ -125,25 +125,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfWeek", "..\DayOfWeek\D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintNumbersInReverseOrder", "..\PrintNumbersInReverseOrder\PrintNumbersInReverseOrder.csproj", "{C051D2FA-7BBA-4564-81BE-CCE2BC20DC7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundingNumbers", "..\RoundingNumbers\RoundingNumbers.csproj", "{0560CEB1-92DA-4B10-A420-BF168B1A4796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoundingNumbers", "..\RoundingNumbers\RoundingNumbers.csproj", "{0560CEB1-92DA-4B10-A420-BF168B1A4796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArrayOfStrings", "..\ReverseArrayOfStrings\ReverseArrayOfStrings.csproj", "{0A4D3972-E412-42F4-B232-C09251597F9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArrayOfStrings", "..\ReverseArrayOfStrings\ReverseArrayOfStrings.csproj", "{0A4D3972-E412-42F4-B232-C09251597F9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumEvenNumbers", "..\SumEvenNumbers\SumEvenNumbers.csproj", "{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumEvenNumbers", "..\SumEvenNumbers\SumEvenNumbers.csproj", "{2C8FDB88-54C5-4724-8B1F-ED7592E0AC31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddSubtraction", "..\EvenAndOddSubtraction\EvenAndOddSubtraction.csproj", "{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenAndOddSubtraction", "..\EvenAndOddSubtraction\EvenAndOddSubtraction.csproj", "{A0F10AA4-CEB0-4456-839B-2AA60E31A1E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualArrays", "..\EqualArrays\EqualArrays.csproj", "{DBFDD7FE-3157-4875-9281-CB2C235D5E69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualArrays", "..\EqualArrays\EqualArrays.csproj", "{DBFDD7FE-3157-4875-9281-CB2C235D5E69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondenseArrayToNumber", "..\CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{62897663-9562-4A37-8A7D-10E93D8DFD87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondenseArrayToNumber", "..\CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{62897663-9562-4A37-8A7D-10E93D8DFD87}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{27CF4EE7-9E9C-4822-B385-3F83B5C6B3D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{2A4B78A2-1358-4B50-A868-4201CF83DF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train", "..\Train\Train.csproj", "{38294FE7-FF97-4A58-8E8C-0A6FA4E6523E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Train", "..\Train\Train.csproj", "{38294FE7-FF97-4A58-8E8C-0A6FA4E6523E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonElements", "..\CommonElements\CommonElements.csproj", "{34C690B7-85D8-44DC-A6D7-8C790B311E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonElements", "..\CommonElements\CommonElements.csproj", "{34C690B7-85D8-44DC-A6D7-8C790B311E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zig-ZagArrays", "..\Zig-ZagArrays\Zig-ZagArrays.csproj", "{4F683785-7BA5-493C-A225-12016EA721A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -383,6 +385,10 @@ Global
 		{34C690B7-85D8-44DC-A6D7-8C790B311E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C690B7-85D8-44DC-A6D7-8C790B311E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C690B7-85D8-44DC-A6D7-8C790B311E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F683785-7BA5-493C-A225-12016EA721A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F683785-7BA5-493C-A225-12016EA721A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F683785-7BA5-493C-A225-12016EA721A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F683785-7BA5-493C-A225-12016EA721A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -455,6 +461,7 @@ Global
 		{2A4B78A2-1358-4B50-A868-4201CF83DF8B} = {15CCE04F-0A30-4A5E-8049-8952274C44E6}
 		{38294FE7-FF97-4A58-8E8C-0A6FA4E6523E} = {2A4B78A2-1358-4B50-A868-4201CF83DF8B}
 		{34C690B7-85D8-44DC-A6D7-8C790B311E0A} = {2A4B78A2-1358-4B50-A868-4201CF83DF8B}
+		{4F683785-7BA5-493C-A225-12016EA721A4} = {2A4B78A2-1358-4B50-A868-4201CF83DF8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
