@@ -4,22 +4,22 @@
     {
         static void Main(string[] args)
         {
-            int rotationCount = int.Parse(Console.ReadLine());
+            string[] inputArr = Console.ReadLine().Split(" ");
+            int rotationNum = int.Parse(Console.ReadLine());
 
-            string[] arr = Console.ReadLine().Split();
-            string[] curentArr = new string[arr.Length];
 
-            for (int i = 0; i < rotationCount; i++)
+            for (int i = 0; i < rotationNum; i++)
             {
-                curentArr[i] = arr[arr.Length - 1];
-                for (int j = 0; j < arr.Length; j++)
+                string rotationElement = inputArr[0];
+
+                for (int j = 1; j < inputArr.Length; j++)
                 {
-
+                    string currentElement = inputArr[j];
+                    inputArr[j - 1] = currentElement;
                 }
-                arr[i] = curentArr[i];
-                ;
+                inputArr[inputArr.Length - 1] = rotationElement;
             }
-
+            Console.WriteLine(string.Join(" ", inputArr));
         }
     }
 }
