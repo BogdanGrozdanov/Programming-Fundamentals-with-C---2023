@@ -18,6 +18,7 @@
                     inputArr[j - 1] = currentElement;
                 }
                 inputArr[inputArr.Length - 1] = rotationElement;
+
             }
             Console.WriteLine(string.Join(" ", inputArr));
         }
