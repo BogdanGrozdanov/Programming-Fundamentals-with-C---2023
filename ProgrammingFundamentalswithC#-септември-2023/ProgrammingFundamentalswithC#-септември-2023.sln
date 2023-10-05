@@ -173,6 +173,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateRectangleArea", ".
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Returning Values and Overloading", "Returning Values and Overloading", "{EAF61889-0CCB-4A46-9985-1F514E679787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatString", "..\RepeatString\RepeatString.csproj", "{4600A849-D0E3-42E0-A4DA-39C46789BC4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -451,6 +453,10 @@ Global
 		{5CCA8CF2-E1B2-4A26-B1C0-1B321E8E310F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CCA8CF2-E1B2-4A26-B1C0-1B321E8E310F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CCA8CF2-E1B2-4A26-B1C0-1B321E8E310F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4600A849-D0E3-42E0-A4DA-39C46789BC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4600A849-D0E3-42E0-A4DA-39C46789BC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4600A849-D0E3-42E0-A4DA-39C46789BC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4600A849-D0E3-42E0-A4DA-39C46789BC4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -536,6 +542,7 @@ Global
 		{249AB44F-ADA9-4059-B67B-C330BB7DFB7F} = {93E82607-9F1C-474A-9DE0-42318DA7A773}
 		{5CCA8CF2-E1B2-4A26-B1C0-1B321E8E310F} = {EAF61889-0CCB-4A46-9985-1F514E679787}
 		{EAF61889-0CCB-4A46-9985-1F514E679787} = {AE93FCC0-1B9F-4ECF-9941-9A673EDE270A}
+		{4600A849-D0E3-42E0-A4DA-39C46789BC4B} = {EAF61889-0CCB-4A46-9985-1F514E679787}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
