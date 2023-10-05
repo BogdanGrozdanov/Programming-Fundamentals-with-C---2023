@@ -11,9 +11,21 @@ namespace PrintingTriangle
 
         static void PrintingTriangle(int number)
         {
-            for (int i = 1; i <= number; i++) 
-            { Console.WriteLine(i);
-                
+            for (int row = 1; row <= number; row++)
+            {
+                for (int col = 1; col <= row; col++)
+                {
+                    Console.Write(col + " ");
+                }
+                Console.WriteLine();
+            }
+            for (int row = number - 1; row >= 1; row--)
+            {
+                for (int col = 1; col <= row; col++)
+                {
+                    Console.Write(col + " ");
+                }
+                Console.WriteLine();
             }
         }
     }
