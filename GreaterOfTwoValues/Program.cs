@@ -1,5 +1,4 @@
-﻿
-namespace GreaterOfTwoValues
+﻿namespace GreaterOfTwoValues
 {
     internal class Program
     {
