@@ -10,6 +10,11 @@
         }
         static int GetSumOfEvenDigits(int number)
         {
+
+            return number;
+        }
+        static int GetSumOfOddDigits(int number)
+        {
             return number;
         }
         static int GetMultipleOfEvenAndOdds(int number)
