@@ -30,7 +30,17 @@ namespace GreaterOfTwoValues
             string result = string.Empty;
             for (int i = 0; i < a.Length; i++)
             {
-                if (a[i] > b[i]) { result = a; } else { result = b; }
+                if (a.Length == b.Length)
+                {
+                    if (a[i] >= b[i])
+                    { result = a; }
+                    else { result = b; }
+                }
+                else if (a.Length < b.Length)
+                { result = b; }
+                else
+                { result = a; }
+
             }
             return result;
         }
