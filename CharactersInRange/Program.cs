@@ -12,10 +12,18 @@ namespace CharactersInRange
 
         private static void PrintCharInRange(char startChar, char endChar)
         {
-            for (int i = startChar+1; i < endChar; i++)
+            char start = default(char);
+            char end = default(char);
+            if (startChar > endChar)
+            {
+                start = endChar;
+                end = startChar;
+            }
+            else { start = startChar; end = endChar; }
+            for (int i = start + 1; i < end; i++)
             {
                 char character = (char)i;
-                Console.Write(character +" ");
+                Console.Write(character + " ");
             }
         }
     }
