@@ -167,15 +167,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations", "..\Calculat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingTriangle", "..\PrintingTriangle\PrintingTriangle.csproj", "{9FC02A06-2D1B-4AD8-B664-1834C7ECA6A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersMethods", "..\OrdersMethods\OrdersMethods.csproj", "{249AB44F-ADA9-4059-B67B-C330BB7DFB7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersMethods", "..\OrdersMethods\OrdersMethods.csproj", "{249AB44F-ADA9-4059-B67B-C330BB7DFB7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateRectangleArea", "..\CalculateRectangleArea\CalculateRectangleArea.csproj", "{5CCA8CF2-E1B2-4A26-B1C0-1B321E8E310F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateRectangleArea", "..\CalculateRectangleArea\CalculateRectangleArea.csproj", "{5CCA8CF2-E1B2-4A26-B1C0-1B321E8E310F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Returning Values and Overloading", "Returning Values and Overloading", "{EAF61889-0CCB-4A46-9985-1F514E679787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatString", "..\RepeatString\RepeatString.csproj", "{4600A849-D0E3-42E0-A4DA-39C46789BC4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatString", "..\RepeatString\RepeatString.csproj", "{4600A849-D0E3-42E0-A4DA-39C46789BC4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPower", "..\MathPower\MathPower.csproj", "{9F94598B-3C83-4ECF-A8DC-B1761CC8C591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathPower", "..\MathPower\MathPower.csproj", "{9F94598B-3C83-4ECF-A8DC-B1761CC8C591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterOfTwoValues", "..\GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{F6E727DD-5179-4794-B41F-0C5A873035FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -463,6 +465,10 @@ Global
 		{9F94598B-3C83-4ECF-A8DC-B1761CC8C591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F94598B-3C83-4ECF-A8DC-B1761CC8C591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F94598B-3C83-4ECF-A8DC-B1761CC8C591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E727DD-5179-4794-B41F-0C5A873035FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E727DD-5179-4794-B41F-0C5A873035FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E727DD-5179-4794-B41F-0C5A873035FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E727DD-5179-4794-B41F-0C5A873035FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -550,6 +556,7 @@ Global
 		{EAF61889-0CCB-4A46-9985-1F514E679787} = {AE93FCC0-1B9F-4ECF-9941-9A673EDE270A}
 		{4600A849-D0E3-42E0-A4DA-39C46789BC4B} = {EAF61889-0CCB-4A46-9985-1F514E679787}
 		{9F94598B-3C83-4ECF-A8DC-B1761CC8C591} = {EAF61889-0CCB-4A46-9985-1F514E679787}
+		{F6E727DD-5179-4794-B41F-0C5A873035FB} = {EAF61889-0CCB-4A46-9985-1F514E679787}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
