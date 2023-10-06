@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int number = Math.Abs(int.Parse(Console.ReadLine()));
+            int result = 0;
+
+        }
+        static int GetSumOfEvenDigits(int number)
+        {
+            return number;
+        }
+        static int GetMultipleOfEvenAndOdds(int number)
+        {
+
+            return number;
         }
     }
 }
