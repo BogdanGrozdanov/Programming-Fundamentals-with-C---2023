@@ -6,17 +6,16 @@
         {
             int number = Math.Abs(int.Parse(Console.ReadLine()));
             int result = 0;
-            result = GetSumOfEvenDigits(number);
-            
+            result = GetMultipleOfEvenAndOdds(number);
+            Console.WriteLine(result);
         }
         static int GetSumOfEvenDigits(int number)
         {
             int sum = 0;
-            for (int i = 0; i <= number; i++)
+            while (number > 0)
             {
                 int lastDigit = number % 10;
                 if (lastDigit % 2 == 0)
-
                 {
                     sum += lastDigit;
                 }
@@ -26,12 +25,22 @@
         }
         static int GetSumOfOddDigits(int number)
         {
-            return number;
+            int sum = 0;
+            while (number > 0)
+            {
+                int lastDigit = number % 10;
+                if (lastDigit % 2 != 0)
+                {
+                    sum += lastDigit;
+                }
+                number /= 10;
+            }
+            return sum;
         }
         static int GetMultipleOfEvenAndOdds(int number)
         {
-
-            return number;
+            int result = GetSumOfEvenDigits(number) * GetSumOfOddDigits(number);
+            return result;
         }
     }
 }
