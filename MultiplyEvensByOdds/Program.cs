@@ -6,12 +6,23 @@
         {
             int number = Math.Abs(int.Parse(Console.ReadLine()));
             int result = 0;
-
+            result = GetSumOfEvenDigits(number);
+            
         }
         static int GetSumOfEvenDigits(int number)
         {
+            int sum = 0;
+            for (int i = 0; i <= number; i++)
+            {
+                int lastDigit = number % 10;
+                if (lastDigit % 2 == 0)
 
-            return number;
+                {
+                    sum += lastDigit;
+                }
+                number /= 10;
+            }
+            return sum;
         }
         static int GetSumOfOddDigits(int number)
         {
