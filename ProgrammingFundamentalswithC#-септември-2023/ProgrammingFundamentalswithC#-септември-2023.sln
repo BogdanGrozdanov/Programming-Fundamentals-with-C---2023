@@ -177,21 +177,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatString", "..\RepeatSt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathPower", "..\MathPower\MathPower.csproj", "{9F94598B-3C83-4ECF-A8DC-B1761CC8C591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterOfTwoValues", "..\GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{F6E727DD-5179-4794-B41F-0C5A873035FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreaterOfTwoValues", "..\GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{F6E727DD-5179-4794-B41F-0C5A873035FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyEvensByOdds", "..\MultiplyEvensByOdds\MultiplyEvensByOdds.csproj", "{F93AF920-5500-466F-B2CB-F163CE9B8C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplyEvensByOdds", "..\MultiplyEvensByOdds\MultiplyEvensByOdds.csproj", "{F93AF920-5500-466F-B2CB-F163CE9B8C7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "..\MathOperations\MathOperations.csproj", "{6BBBE9AA-562D-4998-A729-DB27B0CA7866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations", "..\MathOperations\MathOperations.csproj", "{6BBBE9AA-562D-4998-A729-DB27B0CA7866}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExerciseMethods", "ExerciseMethods", "{4A9CF365-F4FA-4309-96BE-69ECAC843B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestOfThreeNumbers", "..\SmallestOfThreeNumbers\SmallestOfThreeNumbers.csproj", "{88FCC355-F347-419D-A6CE-A793FE8A4B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestOfThreeNumbers", "..\SmallestOfThreeNumbers\SmallestOfThreeNumbers.csproj", "{88FCC355-F347-419D-A6CE-A793FE8A4B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelsCount", "..\VowelsCount\VowelsCount.csproj", "{CBD2E541-E290-449F-BE75-BD9E3A2CE57F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VowelsCount", "..\VowelsCount\VowelsCount.csproj", "{CBD2E541-E290-449F-BE75-BD9E3A2CE57F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharactersInRange", "..\CharactersInRange\CharactersInRange.csproj", "{27D2D7AB-1127-4390-AD0A-D571E36F1AF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharactersInRange", "..\CharactersInRange\CharactersInRange.csproj", "{27D2D7AB-1127-4390-AD0A-D571E36F1AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordValidator", "..\PasswordValidator\PasswordValidator.csproj", "{94AA0793-3380-4D84-9ACC-BBA0D3B026FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordValidator", "..\PasswordValidator\PasswordValidator.csproj", "{94AA0793-3380-4D84-9ACC-BBA0D3B026FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAndSubtract", "..\AddAndSubtract\AddAndSubtract.csproj", "{2DFABA5A-4600-45C9-9C48-21C26BD37B20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -507,6 +509,10 @@ Global
 		{94AA0793-3380-4D84-9ACC-BBA0D3B026FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94AA0793-3380-4D84-9ACC-BBA0D3B026FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94AA0793-3380-4D84-9ACC-BBA0D3B026FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFABA5A-4600-45C9-9C48-21C26BD37B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFABA5A-4600-45C9-9C48-21C26BD37B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFABA5A-4600-45C9-9C48-21C26BD37B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFABA5A-4600-45C9-9C48-21C26BD37B20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -602,6 +608,7 @@ Global
 		{CBD2E541-E290-449F-BE75-BD9E3A2CE57F} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
 		{27D2D7AB-1127-4390-AD0A-D571E36F1AF5} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
 		{94AA0793-3380-4D84-9ACC-BBA0D3B026FE} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
+		{2DFABA5A-4600-45C9-9C48-21C26BD37B20} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
