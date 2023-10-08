@@ -8,22 +8,41 @@ namespace PasswordValidator
     {
         static void Main(string[] args)
         {
-            string[] password = Console.ReadLine().Split("");
+            string password = Console.ReadLine();
             ValidatorPassword(password);
 
         }
 
-        static void ValidatorPassword(string[] password)
+        static void ValidatorPasswordForLength(string password)
         {
-            int counter = 0;
-            if (password.Length < 6 || password.Length > 10) { Console.WriteLine("Password must be between 6 and 10 characters"); }
+            if (password.Length < 6 && password.Length > 10) { Console.WriteLine("Password must be between 6 and 10 characters"); }
+        }
+        static void ValidatorPasswordForContainLetterAndDigit(string password)
+        {
             for (int i = 0; i < password.Length; i++)
             {
-                if (password[i]! is string && password[i]! is int)
-                { Console.WriteLine("Password must consist only of letters and digits"); }
-                if (password[i] is int) { counter++; }
+                if (!char.IsLetterOrDigit(password[i])) { Console.WriteLine("Password must consist only of letters and digits"); }
             }
-            if (counter < 2) { Console.WriteLine("Password must have at least 2 digits"); }
         }
+        static void ValidatorPasswordForContainTwoDigit(string password)
+        {
+            int counter = 0;
+            for(int i = 0;i < password.Length; i++) 
+            {
+                if (true)
+                {
+
+                }
+            }
+        }
+
+        //for (int i = 0; i<password.Length; i++)
+        //    {
+        //        if (password[i] is not string && password[i]! is int)
+        //        { Console.WriteLine("Password must consist only of letters and digits"); }
+        //        if (password[i]! is int) { counter++; }
+        //    }
+
+        //    if (counter < 2) { Console.WriteLine("Password must have at least 2 digits"); }
     }
 }
