@@ -1,6 +1,4 @@
-﻿
-using System.Diagnostics.Metrics;
-using System.Globalization;
+﻿using System;
 
 namespace PasswordValidator
 {
@@ -9,52 +7,56 @@ namespace PasswordValidator
         static void Main(string[] args)
         {
             string password = Console.ReadLine();
-            ValidatorPassword(password);
+            string errorMessage = "";
 
+            if (!ValidatorPasswordForLength(password, ref errorMessage))
+                Console.WriteLine(errorMessage);
+
+            if (!ValidatorPasswordForContainLetterAndDigit(password, ref errorMessage))
+                Console.WriteLine(errorMessage);
+
+            if (!ValidatorPasswordForContainTwoDigit(password, ref errorMessage))
+                Console.WriteLine(errorMessage);
+
+            if (string.IsNullOrEmpty(errorMessage))
+                Console.WriteLine("Password is valid");
         }
 
-        private static void ValidatorPassword(string? password)
+        static bool ValidatorPasswordForLength(string password, ref string errorMessage)
         {
-            ValidatorPasswordForLength(password);
-            ValidatorPasswordForContainLetterAndDigit(password);
-            ValidatorPasswordForContainTwoDigit(password);
-        }
-
-        static void ValidatorPasswordForLength(string password)
-        {
-            if (password.Length < 6 || password.Length > 10) { Console.WriteLine("Password must be between 6 and 10 characters"); }
-        }
-        static void ValidatorPasswordForContainLetterAndDigit(string password)
-        {
-            for (int i = 0; i < password.Length; i++)
+            if (password.Length < 6 || password.Length > 10)
             {
-                if (!char.IsLetterOrDigit(password[i])) { Console.WriteLine("Password must consist only of letters and digits");break; }
+                errorMessage = "Password must be between 6 and 10 characters";
+                return false;
             }
+            return true;
         }
-        static void ValidatorPasswordForContainTwoDigit(string password)
+
+        static bool ValidatorPasswordForContainLetterAndDigit(string password, ref string errorMessage)
         {
-            int counter = 0;
-            for (int i = 0; i < password.Length; i++)
+            if (!System.Text.RegularExpressions.Regex.IsMatch(password, "^[a-zA-Z0-9]+$"))
             {
-                if (!char.IsDigit(password[i]))
-                {
-
-                }
-                else if (char.IsDigit(password[i]))
-                {
-                    counter++;
-                }
+                errorMessage = "Password must consist only of letters and digits";
+                return false;
             }
-            if (counter < 2) { Console.WriteLine("Password must have at least 2 digits"); }
+            return true;
         }
 
-        //for (int i = 0; i<password.Length; i++)
-        //    {
-        //        if (password[i] is not string && password[i]! is int)
-        //        { Console.WriteLine("Password must consist only of letters and digits"); }
-        //        if (password[i]! is int) { counter++; }
-        //    }
+        static bool ValidatorPasswordForContainTwoDigit(string password, ref string errorMessage)
+        {
+            int digitCount = 0;
+            foreach (char c in password)
+            {
+                if (char.IsDigit(c))
+                    digitCount++;
+            }
 
-        //    if (counter < 2) { Console.WriteLine("Password must have at least 2 digits"); }
+            if (digitCount < 2)
+            {
+                errorMessage = "Password must have at least 2 digits";
+                return false;
+            }
+            return true;
+        }
     }
 }
