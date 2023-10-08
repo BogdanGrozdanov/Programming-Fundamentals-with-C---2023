@@ -13,27 +13,39 @@ namespace PasswordValidator
 
         }
 
+        private static void ValidatorPassword(string? password)
+        {
+            ValidatorPasswordForLength(password);
+            ValidatorPasswordForContainLetterAndDigit(password);
+            ValidatorPasswordForContainTwoDigit(password);
+        }
+
         static void ValidatorPasswordForLength(string password)
         {
-            if (password.Length < 6 && password.Length > 10) { Console.WriteLine("Password must be between 6 and 10 characters"); }
+            if (password.Length < 6 || password.Length > 10) { Console.WriteLine("Password must be between 6 and 10 characters"); }
         }
         static void ValidatorPasswordForContainLetterAndDigit(string password)
         {
             for (int i = 0; i < password.Length; i++)
             {
-                if (!char.IsLetterOrDigit(password[i])) { Console.WriteLine("Password must consist only of letters and digits"); }
+                if (!char.IsLetterOrDigit(password[i])) { Console.WriteLine("Password must consist only of letters and digits");break; }
             }
         }
         static void ValidatorPasswordForContainTwoDigit(string password)
         {
             int counter = 0;
-            for(int i = 0;i < password.Length; i++) 
+            for (int i = 0; i < password.Length; i++)
             {
-                if (true)
+                if (!char.IsDigit(password[i]))
                 {
 
                 }
+                else if (char.IsDigit(password[i]))
+                {
+                    counter++;
+                }
             }
+            if (counter < 2) { Console.WriteLine("Password must have at least 2 digits"); }
         }
 
         //for (int i = 0; i<password.Length; i++)
