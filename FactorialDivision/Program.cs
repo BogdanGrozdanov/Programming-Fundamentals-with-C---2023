@@ -8,7 +8,9 @@ namespace FactorialDivision
             int firstInteger = int.Parse(Console.ReadLine());
             int secondInteger = int.Parse(Console.ReadLine());
 
-            double result = Factoriel(firstInteger) / Factoriel(secondInteger);
+            int firstfactoriel = Factoriel(firstInteger);
+            int secondFactoriel = Factoriel(secondInteger);
+            double result = firstfactoriel / secondFactoriel;
             Console.WriteLine($"{result:F2}");
         }
 
