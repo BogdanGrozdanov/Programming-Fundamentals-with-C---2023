@@ -9,20 +9,16 @@
         }
         static void MiddleCharacters(string singleString)
         {
-            int startIndex = 0;
-            int endIndex = singleString.Length -1;
-
-            while (startIndex <= endIndex)
+            if (singleString.Length % 2 == 0)
             {
-                if (startIndex == endIndex)
-                {
-                    for (int i = startIndex; i <= endIndex; i++)
-                    {
-                        Console.Write(singleString[startIndex]);
-                    }
-                }
-                startIndex++;
-                endIndex--;
+                int index = singleString.Length / 2;
+                Console.Write(singleString[index - 1]);
+                Console.Write(singleString[index]);
+            }
+            else
+            {
+                int index = singleString.Length / 2;
+                Console.WriteLine(singleString[index]);
             }
         }
     }
