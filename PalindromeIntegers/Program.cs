@@ -1,5 +1,4 @@
-﻿using System.Threading.Channels;
-
+﻿
 namespace PalindromeIntegers
 {
     internal class Program
@@ -11,7 +10,6 @@ namespace PalindromeIntegers
             {
                 bool IsNumberPalindrome = IsPalindrome(input);
                 Console.WriteLine(IsNumberPalindrome);
-
             }
 
         }
