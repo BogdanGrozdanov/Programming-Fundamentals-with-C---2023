@@ -15,18 +15,9 @@ namespace PalindromeIntegers
             }
 
         }
-        static bool IsPalindrome(string symbols)
+        public static bool IsPalindrome(string symbols)
         {
-            int left = 0; int right = symbols.Length - 1;
-            while (left < right)
-            {
-                if (symbols[left] != symbols[right])
-                    return false;
-            }
-            left++;
-            right--;
-
-            return true;
+            return symbols.SequenceEqual(symbols.Reverse());
         }
     }
 }
