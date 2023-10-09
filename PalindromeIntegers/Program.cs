@@ -1,24 +1,32 @@
-﻿namespace PalindromeIntegers
+﻿using System.Threading.Channels;
+
+namespace PalindromeIntegers
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            while (input != "END")
+            string input = string.Empty;
+            while ((input = Console.ReadLine()) != "END")
             {
-                for (int i = 0; i < input.Length; i++)
-                {
+                bool IsNumberPalindrome = IsPalindrome(input);
+                Console.WriteLine(IsNumberPalindrome);
 
-                    for (int j = input.Length - 1; j >= 0; j--)
-                    {
-
-                    }
-                }
-
-                input = Console.ReadLine();
             }
 
+        }
+        static bool IsPalindrome(string symbols)
+        {
+            int left = 0; int right = symbols.Length - 1;
+            while (left < right)
+            {
+                if (symbols[left] != symbols[right])
+                    return false;
+            }
+            left++;
+            right--;
+
+            return true;
         }
     }
 }
