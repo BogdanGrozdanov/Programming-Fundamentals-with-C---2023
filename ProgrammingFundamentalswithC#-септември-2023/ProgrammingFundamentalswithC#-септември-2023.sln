@@ -193,15 +193,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharactersInRange", "..\Cha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordValidator", "..\PasswordValidator\PasswordValidator.csproj", "{94AA0793-3380-4D84-9ACC-BBA0D3B026FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAndSubtract", "..\AddAndSubtract\AddAndSubtract.csproj", "{2DFABA5A-4600-45C9-9C48-21C26BD37B20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddAndSubtract", "..\AddAndSubtract\AddAndSubtract.csproj", "{2DFABA5A-4600-45C9-9C48-21C26BD37B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleCharacters", "..\MiddleCharacters\MiddleCharacters.csproj", "{A6907E56-52F4-4B4E-AE6A-2203DA7D345A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddleCharacters", "..\MiddleCharacters\MiddleCharacters.csproj", "{A6907E56-52F4-4B4E-AE6A-2203DA7D345A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NxNMatrix", "..\NxNMatrix\NxNMatrix.csproj", "{8F154D5C-EE75-4FF7-B880-EB869F515ADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NxNMatrix", "..\NxNMatrix\NxNMatrix.csproj", "{8F154D5C-EE75-4FF7-B880-EB869F515ADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDivision", "..\FactorialDivision\FactorialDivision.csproj", "{3D005E58-8D07-4A7B-8F6E-D94B13BCA091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialDivision", "..\FactorialDivision\FactorialDivision.csproj", "{3D005E58-8D07-4A7B-8F6E-D94B13BCA091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeIntegers", "..\PalindromeIntegers\PalindromeIntegers.csproj", "{9F54913F-C10E-4BF8-A57E-270A969D59FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeIntegers", "..\PalindromeIntegers\PalindromeIntegers.csproj", "{9F54913F-C10E-4BF8-A57E-270A969D59FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopNumber", "..\TopNumber\TopNumber.csproj", "{E2B24EB1-9C79-4D5C-A1E4-609F878301F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -537,6 +539,10 @@ Global
 		{9F54913F-C10E-4BF8-A57E-270A969D59FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F54913F-C10E-4BF8-A57E-270A969D59FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F54913F-C10E-4BF8-A57E-270A969D59FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B24EB1-9C79-4D5C-A1E4-609F878301F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B24EB1-9C79-4D5C-A1E4-609F878301F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B24EB1-9C79-4D5C-A1E4-609F878301F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B24EB1-9C79-4D5C-A1E4-609F878301F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -637,6 +643,7 @@ Global
 		{8F154D5C-EE75-4FF7-B880-EB869F515ADF} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
 		{3D005E58-8D07-4A7B-8F6E-D94B13BCA091} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
 		{9F54913F-C10E-4BF8-A57E-270A969D59FD} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
+		{E2B24EB1-9C79-4D5C-A1E4-609F878301F9} = {4A9CF365-F4FA-4309-96BE-69ECAC843B3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
