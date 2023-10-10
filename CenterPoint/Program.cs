@@ -11,7 +11,6 @@
             double firstPoint = PitagorTheoremDekartCoordinatSystem(x1, y1);
             double secontPoint = PitagorTheoremDekartCoordinatSystem(x2, y2);
             if (firstPoint > secontPoint) { Console.WriteLine($"({x2}, {y2})"); } else { Console.WriteLine($"({x1}, {y1})"); }
-            Console.ReadLine();
         }
 
         static double PitagorTheoremDekartCoordinatSystem(double x1, double y1)

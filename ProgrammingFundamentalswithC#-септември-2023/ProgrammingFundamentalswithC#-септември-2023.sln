@@ -203,13 +203,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialDivision", "..\Fac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeIntegers", "..\PalindromeIntegers\PalindromeIntegers.csproj", "{9F54913F-C10E-4BF8-A57E-270A969D59FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopNumber", "..\TopNumber\TopNumber.csproj", "{E2B24EB1-9C79-4D5C-A1E4-609F878301F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopNumber", "..\TopNumber\TopNumber.csproj", "{E2B24EB1-9C79-4D5C-A1E4-609F878301F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MoreExerciseMethods", "MoreExerciseMethods", "{E24D3C9A-2756-4061-8722-662BD42C5983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataType", "..\DataType\DataType.csproj", "{4D61F06E-8A1A-46BE-ADF9-96DC0494BE8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataType", "..\DataType\DataType.csproj", "{4D61F06E-8A1A-46BE-ADF9-96DC0494BE8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterPoint", "..\CenterPoint\CenterPoint.csproj", "{AB45E476-7CA0-4C5B-9C36-D69C6D6E9200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CenterPoint", "..\CenterPoint\CenterPoint.csproj", "{AB45E476-7CA0-4C5B-9C36-D69C6D6E9200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongerLine", "..\LongerLine\LongerLine.csproj", "{10245220-6D31-4E73-BD2A-FA10849A8958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -557,6 +559,10 @@ Global
 		{AB45E476-7CA0-4C5B-9C36-D69C6D6E9200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB45E476-7CA0-4C5B-9C36-D69C6D6E9200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB45E476-7CA0-4C5B-9C36-D69C6D6E9200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10245220-6D31-4E73-BD2A-FA10849A8958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10245220-6D31-4E73-BD2A-FA10849A8958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10245220-6D31-4E73-BD2A-FA10849A8958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10245220-6D31-4E73-BD2A-FA10849A8958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -661,6 +667,7 @@ Global
 		{E24D3C9A-2756-4061-8722-662BD42C5983} = {690232B7-7C01-4B9C-90ED-AB19BF115999}
 		{4D61F06E-8A1A-46BE-ADF9-96DC0494BE8C} = {E24D3C9A-2756-4061-8722-662BD42C5983}
 		{AB45E476-7CA0-4C5B-9C36-D69C6D6E9200} = {E24D3C9A-2756-4061-8722-662BD42C5983}
+		{10245220-6D31-4E73-BD2A-FA10849A8958} = {E24D3C9A-2756-4061-8722-662BD42C5983}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
