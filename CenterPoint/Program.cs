@@ -14,7 +14,7 @@
             Console.ReadLine();
         }
 
-        private static double PitagorTheoremDekartCoordinatSystem(double x1, double y1)
+        static double PitagorTheoremDekartCoordinatSystem(double x1, double y1)
         {
             return Math.Sqrt(Math.Pow(x1, 2) + Math.Pow(y1, 2));
         }
