@@ -20,23 +20,42 @@ namespace LongerLine
             double l3 = PitagorTheoremDekartCoordinatSystem(x3, y3);
             double l4 = PitagorTheoremDekartCoordinatSystem(x4, y4);
 
-            string result =string.Empty;
-            double max
+            string result1 = string.Empty;
+            string result2 = string.Empty;
+            double max1 = 0;
+            double max2 = 0;
+
             if (l1 > l2)
             {
-                Console.WriteLine($"({x2}, {y2})");
+                max1 = l2;
+                result1 = $"({x2}, {y2})";
             }
             else
             {
-                Console.WriteLine($"({x1}, {y1})");
+                max1 = l1;
+                result1 = $"({x1}, {y1})";
             }
+
             if (l3 > l4)
             {
-                Console.WriteLine($"({x4}, {y4})");
+                max2 = l4;
+                result2 = $"({x4}, {y4})";
             }
             else
             {
-                Console.WriteLine($"({x3}, {y3})");
+                max2 = l3;
+                result2 = $"({x3}, {y3})";
+            }
+
+            if (max1 < max2)
+            {
+                Console.WriteLine(result1);
+                Console.WriteLine(result2);
+            }
+            else
+            {
+                Console.WriteLine(result2);
+                Console.WriteLine(result1);
             }
         }
         static double PitagorTheoremDekartCoordinatSystem(double x1, double y1)
