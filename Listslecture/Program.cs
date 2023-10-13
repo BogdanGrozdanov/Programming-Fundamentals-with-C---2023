@@ -10,6 +10,7 @@ namespace Listslecture
 
             number.Add(1);
             number.Add(2);
+            number.Count();
         }
     }
 }
