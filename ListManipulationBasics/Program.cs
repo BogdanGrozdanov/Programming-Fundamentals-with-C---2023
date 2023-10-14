@@ -9,7 +9,11 @@
                  .Split().
                  Select(double.Parse)
                  .ToList();
+            ChangesList(numbers);
+        }
 
+         static void ChangesList(List<double> numbers)
+        {
             string[] comand = Console.ReadLine().Split();
             while (comand[0] != "end")
             {
