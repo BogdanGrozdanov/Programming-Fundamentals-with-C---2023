@@ -233,6 +233,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListManipulationBasics", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListManipulationAdvanced", "..\ListManipulationAdvanced\ListManipulationAdvanced.csproj", "{A4DFB33D-8A4C-4416-A14C-B9E20EAE8A35}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExerciseList", "ExerciseList", "{6A299038-5363-41B7-A86F-FFD2AA685F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainLists", "..\TrainLists\TrainLists.csproj", "{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -615,6 +619,10 @@ Global
 		{A4DFB33D-8A4C-4416-A14C-B9E20EAE8A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4DFB33D-8A4C-4416-A14C-B9E20EAE8A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4DFB33D-8A4C-4416-A14C-B9E20EAE8A35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -729,6 +737,8 @@ Global
 		{A3269BAB-6121-456A-AC38-2DF0744F12CE} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
 		{9BD336B5-DE2A-4790-B7C2-F4834E709D51} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
 		{A4DFB33D-8A4C-4416-A14C-B9E20EAE8A35} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
+		{6A299038-5363-41B7-A86F-FFD2AA685F0B} = {F5064E23-662D-4319-A4EC-B2B10E13E119}
+		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F} = {6A299038-5363-41B7-A86F-FFD2AA685F0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
