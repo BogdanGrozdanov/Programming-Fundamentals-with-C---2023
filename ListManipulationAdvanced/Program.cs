@@ -11,15 +11,15 @@
                  .ToList();
 
             string[] comand = Console.ReadLine().Split();
-            while (comand[0] != "end")
+            while (comand[0].ToLower() != "end")
             {
-                if (comand[0] == "Contains")
+                if (comand[0].ToLower() == "contains")
                 {
                     if (numbers.Contains(int.Parse(comand[1])))
                     { Console.WriteLine("Yes"); }
                     else { Console.WriteLine("No such number"); }
                 }
-                else if (comand[0] == "PrintEven")
+                else if (comand[0].ToLower() == "printeven")
                 {
                     foreach (double number in numbers)
                     {
@@ -28,8 +28,9 @@
                             Console.Write(number + " ");
                         }
                     }
+                    Console.WriteLine();
                 }
-                else if (comand[0] == "PrintOdd")
+                else if (comand[0].ToLower() == "printodd")
                 {
                     foreach (double number in numbers)
                     {
@@ -38,36 +39,46 @@
                             Console.Write(number + " ");
                         }
                     }
+                    Console.WriteLine();
                 }
-                else if (comand[0] == "GetSum")
+                else if (comand[0].ToLower() == "getsum")
                 { double sum = numbers.Sum(); Console.WriteLine(sum); }
-                else if (comand[0] == "Filter")
+                else if (comand[0].ToLower() == "filter")
                 {
                     string separator = comand[1];
                     double number = double.Parse(comand[2]);
+
                     if (separator == "<")
                     {
                         foreach (var item in numbers)
                         {
-                            if (item < number) { Console.WriteLine(item + " "); }
+                            if (item < number) { Console.Write(item + " "); }
                         }
+
                     }
                     else if (separator == ">")
                     {
                         foreach (var item in numbers)
                         {
-                            if (item > number) { Console.WriteLine(item + " "); }
+                            if (item > number) { Console.Write(item + " "); }
                         }
+                        Console.WriteLine();
                     }
                     else if (separator == "<=")
                     {
                         foreach (var item in numbers)
-                        { if (item <= number) { Console.WriteLine(item + " "); } }
+                        { if (item <= number) { Console.Write(item + " "); } }
+                        Console.WriteLine();
+                    }
+                    else if (separator == ">=")
+                    {
+                        foreach (var item in numbers)
+                        { if (item >= number) { Console.Write(item + " "); } }
+                        Console.WriteLine();
                     }
                 }
                 comand = Console.ReadLine().Split();
             }
-
         }
     }
 }
