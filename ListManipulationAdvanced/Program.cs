@@ -67,9 +67,15 @@
                             if (item > number) { Console.WriteLine(item + " "); }
                         }
                     }
-                    else if ()
+                    else if (separator == ">=")
+                    {
+                        foreach (var item in numbers)
+                        { if (item >= number) { Console.WriteLine(item + " "); } }
+
+                    }
                     comand = Console.ReadLine().Split();
                 }
             }
         }
     }
+}
