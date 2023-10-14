@@ -227,6 +227,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergingLists", "..\MergingL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOfProducts", "..\ListOfProducts\ListOfProducts.csproj", "{231D609C-0CF6-4E9C-B73A-61EA7AB25C2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNegativesAndReverse", "..\RemoveNegativesAndReverse\RemoveNegativesAndReverse.csproj", "{A3269BAB-6121-456A-AC38-2DF0744F12CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -597,6 +599,10 @@ Global
 		{231D609C-0CF6-4E9C-B73A-61EA7AB25C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{231D609C-0CF6-4E9C-B73A-61EA7AB25C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{231D609C-0CF6-4E9C-B73A-61EA7AB25C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3269BAB-6121-456A-AC38-2DF0744F12CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3269BAB-6121-456A-AC38-2DF0744F12CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3269BAB-6121-456A-AC38-2DF0744F12CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3269BAB-6121-456A-AC38-2DF0744F12CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -708,6 +714,7 @@ Global
 		{F0B595E9-D5D4-438B-8502-CE8DC6A570E1} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
 		{5F338778-F0F2-4C60-BF48-6866637CD749} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
 		{231D609C-0CF6-4E9C-B73A-61EA7AB25C2C} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
+		{A3269BAB-6121-456A-AC38-2DF0744F12CE} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
