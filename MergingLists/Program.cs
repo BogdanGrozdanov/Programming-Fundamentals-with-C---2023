@@ -29,6 +29,7 @@ namespace MergingLists
                 outputList.Add(secondNumbers[i]);
             }
 
+
             Console.WriteLine(string.Join(" ", outputList));
         }
     }
