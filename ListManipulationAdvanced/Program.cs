@@ -1,16 +1,7 @@
 ﻿namespace ListManipulationAdvanced
 {
     internal class Program
-    {/*· Contains {number} – check if the list contains the number and if so - print "Yes", otherwise print "No such number".
-
-      · PrintEven – print all the even numbers, separated by a space.
-
-      · PrintOdd – print all the odd numbers, separated by a space.
-
-     · GetSum – print the sum of all the numbers.
-
-       · Filter {condition} {number} – print all the numbers that fulfill the given condition. The condition will be either '<', '>', ">=", "<=".
-        */
+    {
         static void Main(string[] args)
         {
             List<double> numbers =
@@ -24,8 +15,9 @@
             {
                 if (comand[0] == "Contains")
                 {
-                    if (numbers.Contains(int.Parse(comand[1]))) { Console.WriteLine("Yes"); }
-                    else { Console.WriteLine("Nosuch number"); }
+                    if (numbers.Contains(int.Parse(comand[1])))
+                    { Console.WriteLine("Yes"); }
+                    else { Console.WriteLine("No such number"); }
                 }
                 else if (comand[0] == "PrintEven")
                 {
@@ -71,11 +63,11 @@
                     {
                         foreach (var item in numbers)
                         { if (item <= number) { Console.WriteLine(item + " "); } }
-
                     }
-                    comand = Console.ReadLine().Split();
                 }
+                comand = Console.ReadLine().Split();
             }
+
         }
     }
 }
