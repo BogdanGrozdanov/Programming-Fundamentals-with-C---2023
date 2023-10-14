@@ -237,6 +237,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExerciseList", "ExerciseLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainLists", "..\TrainLists\TrainLists.csproj", "{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeList", "..\ChangeList\ChangeList.csproj", "{0D5B8D14-08FA-48FD-8F8F-A8CF1E6A33DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -623,6 +625,10 @@ Global
 		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5B8D14-08FA-48FD-8F8F-A8CF1E6A33DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5B8D14-08FA-48FD-8F8F-A8CF1E6A33DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5B8D14-08FA-48FD-8F8F-A8CF1E6A33DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5B8D14-08FA-48FD-8F8F-A8CF1E6A33DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -739,6 +745,7 @@ Global
 		{A4DFB33D-8A4C-4416-A14C-B9E20EAE8A35} = {C5BFA0A9-2C51-4031-95F7-59013863128F}
 		{6A299038-5363-41B7-A86F-FFD2AA685F0B} = {F5064E23-662D-4319-A4EC-B2B10E13E119}
 		{8F34C1DC-FDF4-4994-B352-F21E0EAD1E7F} = {6A299038-5363-41B7-A86F-FFD2AA685F0B}
+		{0D5B8D14-08FA-48FD-8F8F-A8CF1E6A33DD} = {6A299038-5363-41B7-A86F-FFD2AA685F0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
