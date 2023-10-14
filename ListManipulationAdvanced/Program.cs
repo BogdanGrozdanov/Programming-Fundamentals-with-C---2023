@@ -67,10 +67,10 @@
                             if (item > number) { Console.WriteLine(item + " "); }
                         }
                     }
-                    else if (separator == ">=")
+                    else if (separator == "<=")
                     {
                         foreach (var item in numbers)
-                        { if (item >= number) { Console.WriteLine(item + " "); } }
+                        { if (item <= number) { Console.WriteLine(item + " "); } }
 
                     }
                     comand = Console.ReadLine().Split();
