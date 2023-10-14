@@ -5,6 +5,11 @@
         static void Main(string[] args)
         {
             List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            ChangeList(numbers);
+        }
+
+        static void ChangeList(List<int> numbers)
+        {
             string[] comand = Console.ReadLine().Split();
             while (comand[0].ToLower() != "end")
             {
