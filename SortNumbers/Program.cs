@@ -4,14 +4,19 @@
     {
         static void Main(string[] args)
         {
-            int[] number = 
-
+            List<int> numbers = new List<int>();
             for (int i = 0; i < 3; i++)
             {
-                int numbers = int.Parse(Console.ReadLine());
-                number.Add(numbers);
+                int number = int.Parse(Console.ReadLine());
+                numbers.Add(number);
             }
-            number.s
+            numbers.Sort();
+            for (int i = numbers.Count - 1; i >= 0; i--)
+            {
+                Console.WriteLine(numbers[i]);
+            }
+
+
         }
     }
 }
