@@ -15,15 +15,15 @@ namespace HouseParty
                 {
                     Console.WriteLine($"{name[0]} is already in the list!");
                 }
-                else if (name[2] == "")
+                else if (name[2] == "not")
                 {
-                    names.Add(name[0]);
-                }
-            }
-            for (int i = 0; i < names.Count; i++)
-            {
+                    Console.WriteLine($"{name[0]} is not in the list!");
 
+                }
+                else { names.Add(name[0]); }
+               
             }
+            
         }
     }
 }
