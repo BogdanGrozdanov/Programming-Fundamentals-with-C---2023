@@ -15,8 +15,6 @@
             {
                 Console.WriteLine(numbers[i]);
             }
-
-
         }
     }
 }
