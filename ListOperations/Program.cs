@@ -8,7 +8,7 @@
             string[] comand = Console.ReadLine().Split();
             while (comand[0].ToLower() != "end")
             {
-                if (comand[0] == "add")
+                if (comand[0].ToLower() == "add")
                 {
                     intergers.Add(int.Parse(comand[1]));
                 }
