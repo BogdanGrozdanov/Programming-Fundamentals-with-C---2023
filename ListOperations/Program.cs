@@ -14,7 +14,7 @@
                 }
                 else if (comand[0].ToLower() == "insert")
                 {
-                    if (int.Parse(comand[2]) > intergers.Count - 1)
+                    if (int.Parse(comand[2]) > intergers.Count - 1 || int.Parse(comand[2]) < 0)
                     {
                         Console.WriteLine("Invalid index");
                     }
@@ -22,7 +22,7 @@
                 }
                 else if (comand[0].ToLower() == "remove")
                 {
-                    if (int.Parse(comand[1]) > intergers.Count - 1)
+                    if (int.Parse(comand[1]) > intergers.Count - 1 || int.Parse(comand[1]) < 0)
                     {
                         Console.WriteLine("Invalid index");
                     }
