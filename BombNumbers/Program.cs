@@ -9,12 +9,16 @@
             List<int> bombAndPower = Console.ReadLine().Split().Select(int.Parse).ToList();
             int bomb = bombAndPower[0];
             int power = bombAndPower[1];
+            int indexBomb = 0;
 
             for (int i = 0; i < bombsNumber.Count; i++)
             {
-               
-               
+                if (bomb == bombsNumber[i])
+                {
+                     indexBomb = i;
+                }
             }
+
         }
     }
 }
