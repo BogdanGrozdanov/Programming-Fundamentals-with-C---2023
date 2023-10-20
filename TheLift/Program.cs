@@ -19,7 +19,7 @@
                         peopleAdd = people;
                     }
                     numWagons[i] += peopleAdd;
-                    people -= numWagons[i];
+                    people -= peopleAdd;
                 }
             }
 
