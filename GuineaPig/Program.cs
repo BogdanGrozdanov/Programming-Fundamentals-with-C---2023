@@ -14,11 +14,6 @@
             double coverPerMount = 0;
             while (foodPerMount >= foodQuantity && hayQuantiy <= hayPerMount && coverQuantity <= coverPerMount)
             {
-                //if (foodPerMount >= foodQuantity && hayQuantiy <= hayPerMount && coverQuantity <= coverPerMount)
-                //{
-                //    Console.WriteLine("Merry must go to the pet store!");
-                //    break;
-                //}
                 for (int i = 1; i <= 30; i++)
                 {
                     foodPerMount += 0.3;
