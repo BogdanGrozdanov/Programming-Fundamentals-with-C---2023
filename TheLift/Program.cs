@@ -14,7 +14,7 @@
                 if (numWagons[i] < 4)
                 {
                     int peopleAdd = capacityWagons - numWagons[i];
-                    if (people < capacityWagons)
+                    if (people < peopleAdd)
                     {
                         peopleAdd = people;
                     }
@@ -27,15 +27,17 @@
             {
                 if (numWagons[i] < capacityWagons)
                 {
-                    Console.WriteLine($"The lift has empty spots!{string.Join(" ", numWagons)}");
+                    Console.WriteLine($"The lift has empty spots!");
+                    Console.WriteLine(string.Join(" ", numWagons));
+                    break;
                 }
             }
 
             if (people > 0)
             {
-                Console.WriteLine($"There isn't enough space! {people} people in a queue!{string.Join(" ", numWagons)}");
-
-            }
+                Console.WriteLine($"There isn't enough space! {people} people in a queue!");
+                Console.WriteLine( string.Join(" ", numWagons));
+            }else if(people == 0) { Console.WriteLine(string.Join(" ", numWagons)); }
         }
     }
 }
