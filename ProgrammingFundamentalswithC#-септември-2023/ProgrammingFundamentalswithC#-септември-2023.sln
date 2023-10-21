@@ -255,6 +255,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingTarget", "..\MovingTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterStrike", "..\CounterStrike\CounterStrike.csproj", "{1A3D2702-719C-4958-96E1-8B100B06F5AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootForTheWin", "..\ShootForTheWin\ShootForTheWin.csproj", "{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -673,6 +675,10 @@ Global
 		{1A3D2702-719C-4958-96E1-8B100B06F5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A3D2702-719C-4958-96E1-8B100B06F5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A3D2702-719C-4958-96E1-8B100B06F5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -797,6 +803,7 @@ Global
 		{4F94963C-5087-4A0B-A1FD-F0964B6457A4} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
 		{43A20E21-4140-4671-A9BB-1C45C8FFC3EB} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
 		{1A3D2702-719C-4958-96E1-8B100B06F5AC} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
+		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
