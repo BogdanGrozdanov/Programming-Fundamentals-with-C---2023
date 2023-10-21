@@ -21,7 +21,7 @@
                 else
                 {
                     flag = true;
-                    Console.WriteLine($"Not enough energy! Game ends with {counter} won battles and {initialEnergy} energy.");
+                    Console.WriteLine($"Not enough energy! Game ends with {counter} won battles and {initialEnergy} energy");
                     break;
                 }
                 comand = Console.ReadLine().Split();
