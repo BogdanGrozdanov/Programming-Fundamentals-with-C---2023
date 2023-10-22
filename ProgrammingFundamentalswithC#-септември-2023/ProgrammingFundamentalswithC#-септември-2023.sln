@@ -251,11 +251,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig", "..\GuineaPig\G
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheLift", "..\TheLift\TheLift.csproj", "{4F94963C-5087-4A0B-A1FD-F0964B6457A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingTarget", "..\MovingTarget\MovingTarget.csproj", "{43A20E21-4140-4671-A9BB-1C45C8FFC3EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingTarget", "..\MovingTarget\MovingTarget.csproj", "{43A20E21-4140-4671-A9BB-1C45C8FFC3EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterStrike", "..\CounterStrike\CounterStrike.csproj", "{1A3D2702-719C-4958-96E1-8B100B06F5AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterStrike", "..\CounterStrike\CounterStrike.csproj", "{1A3D2702-719C-4958-96E1-8B100B06F5AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootForTheWin", "..\ShootForTheWin\ShootForTheWin.csproj", "{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShootForTheWin", "..\ShootForTheWin\ShootForTheWin.csproj", "{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MidExam22.20.23", "MidExam22.20.23", "{FE06D2E8-4D5F-4079-BDBF-339F67B4013E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingMasterclass", "..\CookingMasterclass\CookingMasterclass.csproj", "{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -679,6 +683,10 @@ Global
 		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -804,6 +812,7 @@ Global
 		{43A20E21-4140-4671-A9BB-1C45C8FFC3EB} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
 		{1A3D2702-719C-4958-96E1-8B100B06F5AC} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
 		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
+		{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D} = {FE06D2E8-4D5F-4079-BDBF-339F67B4013E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
