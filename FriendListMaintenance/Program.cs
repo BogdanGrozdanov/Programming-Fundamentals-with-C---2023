@@ -12,9 +12,9 @@
             {
                 if (comand[0] == "Blacklist")
                 {
-                    if (!blackListName.Contains(comand[1]))
+                    if (!names.Contains(comand[1]))
                     { Console.WriteLine($"{comand[1]} was not found."); }
-                    else
+                    else 
                     {
                         blackListName.Add(comand[1]);
                         Console.WriteLine($"{comand[1]} was blacklisted.");
