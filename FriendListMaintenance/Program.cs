@@ -30,9 +30,11 @@
                     {
                         string curentName = names[int.Parse(comand[1])];
                         names[int.Parse(comand[1])] = comand[2];
+                        Console.WriteLine($"{curentName} changed his username to {comand[2]}.");
 
                     }
                 }
+                comand = Console.ReadLine().Split();
             }
         }
     }
