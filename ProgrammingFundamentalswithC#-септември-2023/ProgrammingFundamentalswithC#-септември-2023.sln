@@ -283,6 +283,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomWords", "..\RandomWor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigFactoriel", "..\BigFactoriel\BigFactoriel.csproj", "{A8880CC7-E559-4305-BA20-25805883B7BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dice", "..\Dice\Dice.csproj", "{8F63AE5F-E203-432A-B707-D99D5AEFAD7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -737,6 +739,10 @@ Global
 		{A8880CC7-E559-4305-BA20-25805883B7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8880CC7-E559-4305-BA20-25805883B7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8880CC7-E559-4305-BA20-25805883B7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F63AE5F-E203-432A-B707-D99D5AEFAD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F63AE5F-E203-432A-B707-D99D5AEFAD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F63AE5F-E203-432A-B707-D99D5AEFAD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F63AE5F-E203-432A-B707-D99D5AEFAD7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -873,6 +879,7 @@ Global
 		{0C7E1EDD-AB88-49E3-B16B-372785F7C299} = {692C354A-C10F-4CE1-8DF1-D33F31E4C001}
 		{42732FF0-2D9E-4DA0-95DC-BC1240290387} = {0C7E1EDD-AB88-49E3-B16B-372785F7C299}
 		{A8880CC7-E559-4305-BA20-25805883B7BD} = {692C354A-C10F-4CE1-8DF1-D33F31E4C001}
+		{8F63AE5F-E203-432A-B707-D99D5AEFAD7B} = {692C354A-C10F-4CE1-8DF1-D33F31E4C001}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
