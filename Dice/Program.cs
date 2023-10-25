@@ -4,10 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Dice dice = new Dice();
-            dice.Sides = 6;
-            int result = dice.Roll();
-            Console.WriteLine(result);
+            Dice dice = new Dice(200);
+            for (int i = 0; i < 20; i++)
+            {
+                Console.WriteLine(dice.Roll());
+            }
+
         }
     }
 }
