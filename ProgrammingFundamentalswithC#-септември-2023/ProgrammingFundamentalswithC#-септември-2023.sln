@@ -259,11 +259,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShootForTheWin", "..\ShootF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MidExam22.20.23", "MidExam22.20.23", "{FE06D2E8-4D5F-4079-BDBF-339F67B4013E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingMasterclass", "..\CookingMasterclass\CookingMasterclass.csproj", "{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookingMasterclass", "..\CookingMasterclass\CookingMasterclass.csproj", "{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendListMaintenance", "..\FriendListMaintenance\FriendListMaintenance.csproj", "{0DF329D6-4C50-47EF-BE0E-374EE4D104CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FriendListMaintenance", "..\FriendListMaintenance\FriendListMaintenance.csproj", "{0DF329D6-4C50-47EF-BE0E-374EE4D104CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAngryCat", "..\TheAngryCat\TheAngryCat.csproj", "{11635282-879A-4D10-B8BF-FE303A6AC677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheAngryCat", "..\TheAngryCat\TheAngryCat.csproj", "{11635282-879A-4D10-B8BF-FE303A6AC677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Objects and Classes", "Objects and Classes", "{692C354A-C10F-4CE1-8DF1-D33F31E4C001}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
