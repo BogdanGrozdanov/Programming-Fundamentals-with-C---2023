@@ -263,6 +263,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingMasterclass", "..\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendListMaintenance", "..\FriendListMaintenance\FriendListMaintenance.csproj", "{0DF329D6-4C50-47EF-BE0E-374EE4D104CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAngryCat", "..\TheAngryCat\TheAngryCat.csproj", "{11635282-879A-4D10-B8BF-FE303A6AC677}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -693,6 +695,10 @@ Global
 		{0DF329D6-4C50-47EF-BE0E-374EE4D104CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF329D6-4C50-47EF-BE0E-374EE4D104CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF329D6-4C50-47EF-BE0E-374EE4D104CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11635282-879A-4D10-B8BF-FE303A6AC677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11635282-879A-4D10-B8BF-FE303A6AC677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11635282-879A-4D10-B8BF-FE303A6AC677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11635282-879A-4D10-B8BF-FE303A6AC677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -820,6 +826,7 @@ Global
 		{A90A2405-1CC5-4DC0-8789-63DED36D6AE4} = {7184E37B-C59E-469C-8738-6609D5C0EB86}
 		{0D900B6E-EFF8-4B57-AD3E-4155A0DAC29D} = {FE06D2E8-4D5F-4079-BDBF-339F67B4013E}
 		{0DF329D6-4C50-47EF-BE0E-374EE4D104CA} = {FE06D2E8-4D5F-4079-BDBF-339F67B4013E}
+		{11635282-879A-4D10-B8BF-FE303A6AC677} = {FE06D2E8-4D5F-4079-BDBF-339F67B4013E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
