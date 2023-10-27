@@ -15,27 +15,18 @@
                 string town = input[3];
 
                 Student student = new Student();
-                Student ExsitStudent = new Student();
+                    
                 student.FirstName = firstName;
                 student.LastName = lastName;
                 student.Age = age;
                 student.HomeTown = town;
-                foreach (var item in students)
-                {
-                    if (item.FirstName == student.FirstName && item.LastName == student.LastName)
-                    {
-                        student = student;
-                        students.Add(student);
-                    }
-                    else
-                    {
-                        students.Add(student);
-                    }
-                }
+                
 
+                students.Add(student);
 
                 input = Console.ReadLine().Split().ToArray();
             }
+           
             string filterByTown = Console.ReadLine();
             List<Student> sortByTown = students.Where(s => s.HomeTown == filterByTown).ToList();
 
@@ -46,6 +37,7 @@
         }
 
     }
+
     public class Student
     {
         public string FirstName { get; set; }
