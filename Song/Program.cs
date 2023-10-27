@@ -21,8 +21,15 @@
                 songs.Add(song);
             }
             string comand = Console.ReadLine();
-            List<Song> filterSong = songs.Where(s => s.TypeList == comand).ToList();
-            foreach (Song song in filterSong) { Console.WriteLine(song.Name); }
+            if (comand == "all")
+            {
+                foreach (Song song in songs) { Console.WriteLine(song.Name); }
+            }
+            else
+            {
+                List<Song> filterSong = songs.Where(s => s.TypeList == comand).ToList();
+                foreach (Song song in filterSong) { Console.WriteLine(song.Name); }
+            }
         }
     }
     internal class Song
