@@ -23,10 +23,11 @@
 
                 input = Console.ReadLine().Split();
             }
-            foreach (Box box in boxes)
+            List<Box> sortBoxes = boxes.OrderByDescending(b => b.PriceBox).ToList();
+            foreach (Box box in sortBoxes)
             {
                 Console.WriteLine(box.SerialNumber);
-                Console.WriteLine($"-- {box.Item.Name} - ${box.Item.Price}: {box.Quantity}");
+                Console.WriteLine($"-- {box.Item.Name} - ${box.Item.Price:F2}: {box.Quantity}");
                 Console.WriteLine($"${box.PriceBox:F2}");
             }
         }
