@@ -295,6 +295,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBoxes", "..\StoreBoxes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{363F96EB-D375-45AB-812E-0D8108102F0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleCatalogue", "..\VehicleCatalogue\VehicleCatalogue.csproj", "{8470D8F2-1841-4C35-B81B-3BB0D0199805}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -769,6 +771,10 @@ Global
 		{5205FA0A-AFF0-40A0-9717-3E6BFA375A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5205FA0A-AFF0-40A0-9717-3E6BFA375A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5205FA0A-AFF0-40A0-9717-3E6BFA375A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8470D8F2-1841-4C35-B81B-3BB0D0199805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8470D8F2-1841-4C35-B81B-3BB0D0199805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8470D8F2-1841-4C35-B81B-3BB0D0199805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8470D8F2-1841-4C35-B81B-3BB0D0199805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -911,6 +917,7 @@ Global
 		{158CD84F-50CF-4093-9709-7BAAE4B09B5B} = {363F96EB-D375-45AB-812E-0D8108102F0A}
 		{5205FA0A-AFF0-40A0-9717-3E6BFA375A8D} = {363F96EB-D375-45AB-812E-0D8108102F0A}
 		{363F96EB-D375-45AB-812E-0D8108102F0A} = {692C354A-C10F-4CE1-8DF1-D33F31E4C001}
+		{8470D8F2-1841-4C35-B81B-3BB0D0199805} = {363F96EB-D375-45AB-812E-0D8108102F0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
