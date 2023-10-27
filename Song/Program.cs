@@ -6,6 +6,7 @@
         {
             int numSong = int.Parse(Console.ReadLine());
             List<Song> songs = new List<Song>();
+
             for (int i = 0; i < numSong; i++)
             {
                 string[] data = Console.ReadLine().Split("_");
@@ -18,8 +19,18 @@
                 song.Name = name;
                 song.Time = time;
                 songs.Add(song);
-
             }
+            string comand = Console.ReadLine();
+            List<Song> filterSong = songs.Where(s => s.TypeList == comand).ToList();
+            foreach (Song song in filterSong) { Console.WriteLine(song.Name); }
         }
+    }
+    internal class Song
+    {
+        public string TypeList { get; set; }
+        public string Name { get; set; }
+        public string Time { get; set; }
+
+
     }
 }
