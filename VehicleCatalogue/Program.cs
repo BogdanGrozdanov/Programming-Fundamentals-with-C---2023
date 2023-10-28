@@ -19,7 +19,6 @@
                     truck.Model = model;
                     truck.Weight = weightOrHp;
                     catalogs.Trucks.Add(truck);
-                    catalogs.Trucks.OrderByDescending(t => t.Brand);
                 }
                 else if (type == "Car")
                 {
@@ -28,21 +27,33 @@
                     car.Model = model;
                     car.HorsePower = weightOrHp;
                     catalogs.Cars.Add(car);
-                    catalogs.Cars.OrderByDescending(b => b.Brand);
                 }
                 input = Console.ReadLine().Split("/");
             }
-            Console.WriteLine($"Cars:");
-            foreach (var car in catalogs.Cars)
-            {
-                Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
-            }
-            foreach (var truck in catalogs.Trucks)
-            {
-                Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
-            }
+            catalogs.Cars = catalogs.Cars.OrderBy(car => car.Brand).ToList();
+            catalogs.Trucks = catalogs.Trucks.OrderBy(truck => truck.Brand).ToList();
+            PrintOutput(catalogs);
 
+        }
 
+        public static void PrintOutput(Catalog catalogs)
+        {
+            if (catalogs.Cars.Count > 0)
+            {
+                Console.WriteLine("Cars:");
+                foreach (var car in catalogs.Cars)
+                {
+                    Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
+                }
+            }
+            if (catalogs.Trucks.Count > 0)
+            {
+                Console.WriteLine("Trucks:");
+                foreach (var truck in catalogs.Trucks)
+                {
+                    Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
+                }
+            }
         }
     }
     internal class Truck
