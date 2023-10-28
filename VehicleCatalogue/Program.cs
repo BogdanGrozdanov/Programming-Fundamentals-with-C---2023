@@ -19,16 +19,28 @@
                     truck.Model = model;
                     truck.Weight = weightOrHp;
                     catalogs.Trucks.Add(truck);
-                }else if (type =="Car")
+                    catalogs.Trucks.OrderByDescending(t => t.Brand);
+                }
+                else if (type == "Car")
                 {
                     Car car = new Car();
                     car.Brand = brand;
                     car.Model = model;
                     car.HorsePower = weightOrHp;
                     catalogs.Cars.Add(car);
+                    catalogs.Cars.OrderByDescending(b => b.Brand);
                 }
+                input = Console.ReadLine().Split("/");
             }
-
+            Console.WriteLine($"Cars:");
+            foreach (var car in catalogs.Cars)
+            {
+                Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
+            }
+            foreach (var truck in catalogs.Trucks)
+            {
+                Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
+            }
 
 
         }
