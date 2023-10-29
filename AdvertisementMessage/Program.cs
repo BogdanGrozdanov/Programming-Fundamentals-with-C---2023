@@ -12,7 +12,11 @@
             string[] cities = { "Burgas", "Sofia", "Plovdiv", "Varna", "Ruse" };
 
             int numberOfMessage = int.Parse(Console.ReadLine());
+            numberOfMessage = AdvertisementMessage(phrases, events, autors, cities, numberOfMessage);
+        }
 
+        public static int AdvertisementMessage(string[] phrases, string[] events, string[] autors, string[] cities, int numberOfMessage)
+        {
             Random rnd = new Random();
             while (numberOfMessage > 0)
             {
@@ -31,6 +35,8 @@
 
                 numberOfMessage--;
             }
+
+            return numberOfMessage;
         }
     }
 }
