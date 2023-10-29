@@ -11,6 +11,7 @@
             string[] autors = { "Diana", "Petya", "Stella", "Elena", "Katya", "Iva", "Annie", "Eva" };
             string[] cities = { "Burgas", "Sofia", "Plovdiv", "Varna", "Ruse" };
 
+            int numberOfMessage =int.Parse(Console.ReadLine());
         }
     }
 }
