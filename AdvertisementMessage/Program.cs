@@ -13,10 +13,22 @@
 
             int numberOfMessage = int.Parse(Console.ReadLine());
 
-            Random randomPhrases = new Random();
-            for (int i = 0; i < phrases.Length; i++)
+            Random rnd = new Random();
+            while (numberOfMessage > 0)
             {
-                phrases[i].Next();
+                int indexOfPhrases = rnd.Next(0, phrases.Length);
+                string phrase = phrases[indexOfPhrases];
+
+                int indexOfEvent = rnd.Next(0, events.Length);
+                string evente = events[indexOfEvent];
+
+                int indexOfautors = rnd.Next(0, autors.Length);
+                string author = autors[indexOfautors];
+
+                int indexOfCities = rnd.Next(0, cities.Length);
+                string city = cities[indexOfCities];
+                Console.WriteLine($"{phrase} {evente} {author} – {city}.");
+                numberOfMessage--;
             }
         }
     }
