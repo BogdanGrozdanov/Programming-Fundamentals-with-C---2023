@@ -28,6 +28,7 @@
                 int indexOfCities = rnd.Next(0, cities.Length);
                 string city = cities[indexOfCities];
                 Console.WriteLine($"{phrase} {evente} {author} – {city}.");
+
                 numberOfMessage--;
             }
         }
