@@ -11,7 +11,13 @@
             string[] autors = { "Diana", "Petya", "Stella", "Elena", "Katya", "Iva", "Annie", "Eva" };
             string[] cities = { "Burgas", "Sofia", "Plovdiv", "Varna", "Ruse" };
 
-            int numberOfMessage =int.Parse(Console.ReadLine());
+            int numberOfMessage = int.Parse(Console.ReadLine());
+
+            Random randomPhrases = new Random();
+            for (int i = 0; i < phrases.Length; i++)
+            {
+                phrases[i].Next();
+            }
         }
     }
 }
