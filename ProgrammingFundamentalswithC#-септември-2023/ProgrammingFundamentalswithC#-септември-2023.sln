@@ -323,6 +323,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharsInAString", "..\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMinerTask", "..\AMinerTask\AMinerTask.csproj", "{7FB74B05-2C62-4FAC-956F-4A46B632BA7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersAssociative", "..\OrdersAssociative\OrdersAssociative.csproj", "{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -837,6 +839,10 @@ Global
 		{7FB74B05-2C62-4FAC-956F-4A46B632BA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB74B05-2C62-4FAC-956F-4A46B632BA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB74B05-2C62-4FAC-956F-4A46B632BA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -992,6 +998,7 @@ Global
 		{13DA0560-9A82-4205-AEF4-01A7218B4E4F} = {0E1AC151-9C1B-4B8D-B738-A90588B044E2}
 		{9F5E396A-F6EF-43C7-A30B-F95A7EF115D7} = {13DA0560-9A82-4205-AEF4-01A7218B4E4F}
 		{7FB74B05-2C62-4FAC-956F-4A46B632BA7C} = {13DA0560-9A82-4205-AEF4-01A7218B4E4F}
+		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA} = {13DA0560-9A82-4205-AEF4-01A7218B4E4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
