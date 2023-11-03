@@ -11,11 +11,15 @@
             string autor = articleInput[2];
 
             Article article = new Article(title, content, autor);
+
             int numOfComand = int.Parse(Console.ReadLine());
-            for (int i = 0; i < numOfComand; i++) 
-            { 
-            
-            
+
+            for (int i = 0; i < numOfComand; i++)
+            {
+                string[] comand = Console.ReadLine().Split(": ");
+                if (comand[0] == "Edit") { article.Edit(comand[1]); }
+                else if (comand[0] == "ChangeAuthor") { article.ChangeAuthor(comand[1]); }
+                else if (comand[0] == "Rename") { article.Rename(comand[1]); }
             }
         }
         public class Article
@@ -36,7 +40,10 @@
             { this.Autor = newAutor; return Autor; }
             public string Rename(string newTitle)
             { this.Title = newTitle; return Title; }
-
+            public override string ToString()
+            {
+                return base.ToString();
+            }
 
 
         }
