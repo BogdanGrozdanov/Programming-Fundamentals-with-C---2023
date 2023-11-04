@@ -307,23 +307,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoDictionary", "..\DemoDictionary\DemoDictionary.csproj", "{EAB7E1A7-A57F-4243-98A1-CA65BFA8B8E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssociativeArrays", "..\AssociativeArrays\AssociativeArrays.csproj", "{515E5E44-61D6-4E28-8DDE-2935F39B8B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssociativeArrays", "..\AssociativeArrays\AssociativeArrays.csproj", "{515E5E44-61D6-4E28-8DDE-2935F39B8B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrences", "..\OddOccurrences\OddOccurrences.csproj", "{D7AEE9CA-3D97-4787-BE25-DC48615BCC64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOccurrences", "..\OddOccurrences\OddOccurrences.csproj", "{D7AEE9CA-3D97-4787-BE25-DC48615BCC64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSynonyms", "..\WordSynonyms\WordSynonyms.csproj", "{6C6FFC79-5CB1-417D-9FC6-A2A9265A0C3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordSynonyms", "..\WordSynonyms\WordSynonyms.csproj", "{6C6FFC79-5CB1-417D-9FC6-A2A9265A0C3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFilter", "..\WordFilter\WordFilter.csproj", "{E5FFBE5C-7AF0-43F3-AABB-8ADC53A0EEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFilter", "..\WordFilter\WordFilter.csproj", "{E5FFBE5C-7AF0-43F3-AABB-8ADC53A0EEE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LAB", "LAB", "{624D6537-8403-4A18-92CD-37C7369878B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{13DA0560-9A82-4205-AEF4-01A7218B4E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharsInAString", "..\CountCharsInAString\CountCharsInAString.csproj", "{9F5E396A-F6EF-43C7-A30B-F95A7EF115D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCharsInAString", "..\CountCharsInAString\CountCharsInAString.csproj", "{9F5E396A-F6EF-43C7-A30B-F95A7EF115D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMinerTask", "..\AMinerTask\AMinerTask.csproj", "{7FB74B05-2C62-4FAC-956F-4A46B632BA7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AMinerTask", "..\AMinerTask\AMinerTask.csproj", "{7FB74B05-2C62-4FAC-956F-4A46B632BA7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersAssociative", "..\OrdersAssociative\OrdersAssociative.csproj", "{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersAssociative", "..\OrdersAssociative\OrdersAssociative.csproj", "{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniParking", "..\SoftUniParking\SoftUniParking.csproj", "{F2A1F9D6-5EB0-45A5-81C3-C87D1CA19A4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -843,6 +845,10 @@ Global
 		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A1F9D6-5EB0-45A5-81C3-C87D1CA19A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A1F9D6-5EB0-45A5-81C3-C87D1CA19A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A1F9D6-5EB0-45A5-81C3-C87D1CA19A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A1F9D6-5EB0-45A5-81C3-C87D1CA19A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -999,6 +1005,7 @@ Global
 		{9F5E396A-F6EF-43C7-A30B-F95A7EF115D7} = {13DA0560-9A82-4205-AEF4-01A7218B4E4F}
 		{7FB74B05-2C62-4FAC-956F-4A46B632BA7C} = {13DA0560-9A82-4205-AEF4-01A7218B4E4F}
 		{B7C72BB9-8131-4D4A-800D-4AEA87E935CA} = {13DA0560-9A82-4205-AEF4-01A7218B4E4F}
+		{F2A1F9D6-5EB0-45A5-81C3-C87D1CA19A4A} = {13DA0560-9A82-4205-AEF4-01A7218B4E4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {734AF992-3115-497D-884B-4FCFDFEACDB4}
