@@ -26,7 +26,7 @@ namespace StudentAcademy
             {
                 if (student.Value.Average() >= 4.50)
                 {
-                    Console.WriteLine($"{student.Key} -> {student.Value.Average()}");
+                    Console.WriteLine($"{student.Key} -> {student.Value.Average():F2}");
                 }
             }
         }
