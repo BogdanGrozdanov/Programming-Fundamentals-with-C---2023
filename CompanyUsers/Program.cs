@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Dictionary<string, List<string>> kvpCompany = new Dictionary<string, List<string>>();
+            Dictionary<string, Company> kvpCompany = new Dictionary<string, Company>();
 
             while (true)
             {
@@ -14,29 +14,46 @@
 
                 string company = input[0];
                 string id = input[1];
+
                 if (!kvpCompany.ContainsKey(company))
                 {
-                    kvpCompany.Add(company, new List<string>());
-                    kvpCompany[company].Add(id);
+                    Company ids = new Company(company);
+                    kvpCompany.Add(company, ids);
                 }
-                else
-                {
-                    if (!kvpCompany[company].Contains(id))
-                    {
-                        kvpCompany[company].Add(id);
-                    }
-
-                }
+                kvpCompany[company].AddIds(id);
             }
-
-            foreach (var company in kvpCompany)
+            foreach (KeyValuePair<string, Company> pair in kvpCompany)
             {
-                Console.WriteLine($"{company.Key}");
-                foreach (var ids in company.Value)
-                {
-                    Console.WriteLine($"-- {ids}");
-                }
+                Console.WriteLine(pair.Value);
             }
         }
     }
+    public class Company
+    {
+        public Company(string name)
+        {
+            Name = name;
+            Ids = new List<string>();
+        }
+        public string Name { get; set; }
+        public List<string> Ids { get; set; }
+
+        public void AddIds(string id)
+        {
+            if (!Ids.Contains(id)) { Ids.Add(id); }
+        }
+        public override string ToString()
+        {
+            string result = $"{Name}\n";
+
+            for (int i = 0; i < Ids.Count; i++)
+            {
+                result += $"-- {Ids[i]}\n";
+            }
+
+            return result.Trim();
+        }
+
+    }
+
 }
