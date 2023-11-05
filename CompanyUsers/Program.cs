@@ -22,7 +22,10 @@
                 else
                 {
                     if (!kvpCompany[company].Contains(id))
-                    { kvpCompany[company].Add(id); }
+                    {
+                        kvpCompany[company].Add(id);
+                    }
+
                 }
             }
 
