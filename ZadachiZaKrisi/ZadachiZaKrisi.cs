@@ -37,7 +37,16 @@ namespace ZadachiZaKrisi
                     Console.WriteLine("С какво действие да бъдат ...");
                     string action = Console.ReadLine();
 
-                    Console.Write($"{number1} {action} {number2} = ");
+                    if (number1 >= number2)
+                    {
+                        Console.Write($"{number1} {action} {number2} = ");
+                    }
+                    else
+                    {
+                        Console.Write($"{number2} {action} {number1} = ");
+                    }
+
+                    
                     int result = int.Parse(Console.ReadLine());
 
                     if (action == "+")
@@ -50,20 +59,8 @@ namespace ZadachiZaKrisi
                     }
                     else if (action == "-")
                     {
-                        if (result == number2 - number1)
-                        {
-                            Console.WriteLine($" Вярно!!!" + Environment.NewLine);
-                            Console.Beep(450, 650);
-                            counterTrue++;
-                        }
-                        else
-                        {
-                            Console.WriteLine(" Грешно" + Environment.NewLine);
-                            Console.Beep(900, 1000);
-                            counterFalse++;
-                        }
+                        SubstractMethod(ref counterTrue, ref counterFalse, number1, number2, result);
                     }
-
                 }
 
 
@@ -71,6 +68,40 @@ namespace ZadachiZaKrisi
 
                 Console.WriteLine("Да продължаваме ли?");
                 startOrStop = Console.ReadLine();
+            }
+        }
+
+        static void SubstractMethod(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
+        {
+            if (number1 >= number2)
+            {
+                if (result == number1 - number2)
+                {
+                    Console.WriteLine($" Вярно!!!" + Environment.NewLine);
+                    Console.Beep(450, 650);
+                    counterTrue++;
+                }
+                else
+                {
+                    Console.WriteLine(" Грешно" + Environment.NewLine);
+                    Console.Beep(900, 1000);
+                    counterFalse++;
+                }
+            }
+            else
+            {
+                if (result == number2 - number1)
+                {
+                    Console.WriteLine($" Вярно!!!" + Environment.NewLine);
+                    Console.Beep(450, 650);
+                    counterTrue++;
+                }
+                else
+                {
+                    Console.WriteLine(" Грешно" + Environment.NewLine);
+                    Console.Beep(900, 1000);
+                    counterFalse++;
+                }
             }
         }
 
