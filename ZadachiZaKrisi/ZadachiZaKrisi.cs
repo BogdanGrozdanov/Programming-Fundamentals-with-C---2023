@@ -37,40 +37,25 @@ namespace ZadachiZaKrisi
                     Console.WriteLine("С какво действие да бъдат ...");
                     string action = Console.ReadLine();
 
-                    if (action == "-")
-                    {
-                        if (number1 >= number2)
-                        {
-                            Console.Write($"{number1} {action} {number2} = ");
-                        }
-                        else
-                        {
-                            Console.Write($"{number2} {action} {number1} = ");
-                        }
-                    }
-                    else
-                    {
-                        Console.Write($"{number1} {action} {number2} = ");
-                    }
-
+                    PrintProblemForResolve(number1, number2, action);
 
                     int result = int.Parse(Console.ReadLine());
 
                     if (action == "+")
                     {
-                        AddAction(ref counterTrue, ref counterFalse, number1, number2, result);
+                        AddMethod(ref counterTrue, ref counterFalse, number1, number2, result);
                     }
                     else if (action == "*")
                     {
-                        MultyplayAction(ref counterTrue, ref counterFalse, number1, number2, result);
+                        MultyplayMethod(ref counterTrue, ref counterFalse, number1, number2, result);
                     }
                     else if (action == "-")
                     {
                         SubstractMethod(ref counterTrue, ref counterFalse, number1, number2, result);
-                    } 
-                    else if (true)
+                    }
+                    else if (action == "/")
                     {
-                        
+                        DivideMethod(ref counterTrue, ref counterFalse, number1, number2, result);
                     }
                 }
 
@@ -82,6 +67,57 @@ namespace ZadachiZaKrisi
             }
         }
 
+        static void DivideMethod(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
+        {
+            if (number1 >= number2)
+            {
+                if (result == number1 / number2)
+                {
+                    Console.WriteLine($" Вярно!!!" + Environment.NewLine);
+                    Console.Beep(450, 650);
+                    counterTrue++;
+                }
+                else
+                {
+                    Console.WriteLine(" Грешно" + Environment.NewLine);
+                    Console.Beep(900, 1000);
+                    counterFalse++;
+                }
+            }
+            else
+            {
+                if (result == number2 / number1)
+                {
+                    Console.WriteLine($" Вярно!!!" + Environment.NewLine);
+                    Console.Beep(450, 650);
+                    counterTrue++;
+                }
+                else
+                {
+                    Console.WriteLine(" Грешно" + Environment.NewLine);
+                    Console.Beep(900, 1000);
+                    counterFalse++;
+                }
+            }
+        }
+        static void PrintProblemForResolve(int number1, int number2, string action)
+        {
+            if (action == "-" || action == "/")
+            {
+                if (number1 >= number2)
+                {
+                    Console.Write($"{number1} {action} {number2} = ");
+                }
+                else
+                {
+                    Console.Write($"{number2} {action} {number1} = ");
+                }
+            }
+            else
+            {
+                Console.Write($"{number1} {action} {number2} = ");
+            }
+        }
         static void SubstractMethod(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
         {
             if (number1 >= number2)
@@ -115,8 +151,7 @@ namespace ZadachiZaKrisi
                 }
             }
         }
-
-        static void MultyplayAction(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
+        static void MultyplayMethod(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
         {
             if (result == number2 * number1)
             {
@@ -146,7 +181,7 @@ namespace ZadachiZaKrisi
             Console.WriteLine($"Грешни отговори {counterFalse}");
             Console.WriteLine($"Вярни отговори {counterTrue}" + Environment.NewLine);
         }
-        static void AddAction(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
+        static void AddMethod(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
         {
             if (result == number1 + number2)
             {
