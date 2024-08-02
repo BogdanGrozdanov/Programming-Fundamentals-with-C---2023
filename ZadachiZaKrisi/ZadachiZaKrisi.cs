@@ -37,16 +37,23 @@ namespace ZadachiZaKrisi
                     Console.WriteLine("С какво действие да бъдат ...");
                     string action = Console.ReadLine();
 
-                    if (number1 >= number2)
+                    if (action == "-")
                     {
-                        Console.Write($"{number1} {action} {number2} = ");
+                        if (number1 >= number2)
+                        {
+                            Console.Write($"{number1} {action} {number2} = ");
+                        }
+                        else
+                        {
+                            Console.Write($"{number2} {action} {number1} = ");
+                        }
                     }
                     else
                     {
-                        Console.Write($"{number2} {action} {number1} = ");
+                        Console.Write($"{number1} {action} {number2} = ");
                     }
 
-                    
+
                     int result = int.Parse(Console.ReadLine());
 
                     if (action == "+")
@@ -60,6 +67,10 @@ namespace ZadachiZaKrisi
                     else if (action == "-")
                     {
                         SubstractMethod(ref counterTrue, ref counterFalse, number1, number2, result);
+                    } 
+                    else if (true)
+                    {
+                        
                     }
                 }
 
