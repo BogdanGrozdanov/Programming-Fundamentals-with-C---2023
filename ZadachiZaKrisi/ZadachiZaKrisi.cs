@@ -7,7 +7,7 @@ namespace ZadachiZaKrisi
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;//за кирилица
 
             Console.WriteLine("Ще решим ли няколко задачи???");
             Console.WriteLine("Колко на брой да са?");
