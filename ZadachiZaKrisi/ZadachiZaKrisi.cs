@@ -9,8 +9,8 @@ namespace ZadachiZaKrisi
         {
             Console.OutputEncoding = Encoding.UTF8;//за кирилица
 
-            Console.WriteLine("Ще решим ли няколко задачи???");
-            Console.WriteLine("Колко на брой да са?");
+            Console.WriteLine("Ще решим ли няколко задачи???");//message
+            Console.WriteLine("Колко на брой да са?");//message
 
             int numProblems = int.Parse(Console.ReadLine());//
 
@@ -31,11 +31,18 @@ namespace ZadachiZaKrisi
                     Console.WriteLine($"Задача {i}");
                     Console.WriteLine();
 
+                    Console.WriteLine("С какво действие да бъдат ...");
+
                     int number1 = rnd.Next(rangeMinNum, rangeMaxNum);  //00
                     int number2 = rnd.Next(rangeMinNum, rangeMaxNum);
 
-                    Console.WriteLine("С какво действие да бъдат ...");
                     string action = Console.ReadLine();
+
+                    //
+                    if (action == "/")
+                    {
+                        
+                    }
 
                     PrintProblemForResolve(number1, number2, action);
 
@@ -67,7 +74,7 @@ namespace ZadachiZaKrisi
             }
         }
 
-        static void DivideMethod(ref int counterTrue, ref int counterFalse, int number1, int number2, int result)
+        static void DivideMethod(ref int counterTrue, ref int counterFalse, double number1, double number2, double result)
         {
             if (number1 >= number2)
             {
@@ -173,7 +180,7 @@ namespace ZadachiZaKrisi
             rangeMinNum = int.Parse(Console.ReadLine());
             Console.WriteLine("Въведи най голямо число ,с което да смятаме... ");
             rangeMaxNum = int.Parse(Console.ReadLine());
-            //max number range
+            //min and max number range
         }
         static void PrintResult(int counterTrue, int counterFalse)
         {
